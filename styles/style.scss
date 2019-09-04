@@ -1,0 +1,42 @@
+* {margin: 0;}
+html, body {
+  margin: 0; padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  // scrollbar-width: none;
+  // -ms-overflow-style: none;
+}
+
+.body-wrapper {
+  .header {
+    .content {
+      &.menu {
+        
+      }
+      .background {
+
+      }
+      .title {
+
+      }
+      .items {
+        .item {
+          .item-image {
+
+          }
+          .item-category {
+
+          }
+          .item-name {
+            
+          }
+        }
+      }
+    }
+  }
+}

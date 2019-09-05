@@ -120,6 +120,8 @@ body {
 
 .body-wrapper .menu .items .item:hover .item-image img {
   bottom: 100px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .body-wrapper .menu .items .item .item-part {
@@ -195,6 +197,8 @@ body {
 }
 
 .body-wrapper .menu .items .item .item-image img {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
   width: 80%;
   left: 0;
   right: 0;
@@ -202,7 +206,7 @@ body {
   margin: auto;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  bottom: 20px;
+  bottom: 0px;
   position: absolute;
 }
 
@@ -215,6 +219,21 @@ body {
 
 .body-wrapper .menu .items .item .item-category p {
   font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.body-wrapper .menu .items .item .item-name {
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  z-index: 2;
+  width: 150px;
+}
+
+.body-wrapper .menu .items .item .item-name p {
+  font-size: 0.9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0;

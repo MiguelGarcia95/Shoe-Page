@@ -84,6 +84,28 @@ body {
   border-bottom-right-radius: 0;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
+  overflow-x: hidden;
+}
+
+.body-wrapper .menu .items .item .item-top .item-top-01 {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  background-color: sandybrown;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+  right: -300px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.body-wrapper .menu .items .item .item-top .item-top-01:hover {
+  right: -150%;
+  width: 150%;
+  height: 350px;
 }
 
 .body-wrapper .menu .items .item .item-bottom {

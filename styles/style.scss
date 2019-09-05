@@ -64,6 +64,23 @@ body {
           z-index: 2;
           border-bottom-right-radius: 0;
           transform-origin: bottom;
+          overflow-x: hidden;
+          .item-top-01 {
+            width: 100%;
+            height: 250px;
+            position: absolute;
+            bottom: 0;
+            transform-origin: bottom;
+            background-color: sandybrown;
+            transform: skew(45deg);
+            right: -300px;
+            transition: 0.5s;
+            &:hover {
+              right: -150%;
+              width: 150%;
+              height: 350px;
+            }
+          }
         }
         .item-bottom {
           height: 300px;

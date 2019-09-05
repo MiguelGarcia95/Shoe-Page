@@ -159,4 +159,30 @@ body {
   bottom: 0;
   border-radius: 20px;
 }
+
+.body-wrapper .menu .items .item .item-image {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  bottom: 200px;
+  text-align: center;
+}
+
+.body-wrapper .menu .items .item .item-image img {
+  width: 80%;
+}
+
+.body-wrapper .menu .items .item .item-category {
+  position: absolute;
+  bottom: 150px;
+  left: 20px;
+  z-index: 2;
+}
+
+.body-wrapper .menu .items .item .item-category p {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

@@ -65,25 +65,45 @@ body {
           border-bottom-right-radius: 0;
           transform-origin: bottom;
           overflow-x: hidden;
-          .item-top-01 {
-            width: 100%;
-            height: 250px;
-            position: absolute;
-            bottom: 0;
-            transform-origin: bottom;
-            background-color: sandybrown;
-            transform: skew(45deg);
-            right: -300px;
-            transition: 0.5s;
-            &:hover {
-              right: -150%;
-              width: 150%;
-              height: 350px;
+          &:hover {
+            .item-top-01 {
+              width: 100%;
             }
+
+          }
+          .item-top-01 {
+            width: 0;
+            height: 0;
+            height: 180px;
+            position: absolute;
+            bottom: 130px;
+            right: 0;
+            background-color: sandybrown;
+            transform: skewY(25deg);
+            transition: 0.5s;
+            border-radius: 15px;
+
+          }
+          .item-top-02 {
+            width: 100px;
+            height: 0px;
+            position: absolute;
+            bottom: 0px;
+            right: -250px;
+            // border-left: 50px solid transparent;
+            // border-right: 50px solid transparent;
+            // border-bottom: 100px solid sandybrown;
+            // background-color: sandybrown;
+            // transform: skew(45deg);
+            width: 0;
+            height: 0;
+            border-left: 250px solid transparent;
+            border-right: 250px solid transparent;
+            border-top: 200px solid sandybrown;
           }
         }
         .item-bottom {
-          height: 300px;
+          height: 250px;
           background-color: #f0f0f0;
           z-index: 1;
           bottom: 0;

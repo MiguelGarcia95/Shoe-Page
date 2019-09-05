@@ -76,6 +76,7 @@ body {
 .body-wrapper .menu .items .item .item-part {
   width: 100%;
   position: absolute;
+  overflow-x: hidden;
 }
 
 .body-wrapper .menu .items .item:hover .item-part .item-top-02::after {
@@ -86,10 +87,9 @@ body {
 .body-wrapper .menu .items .item .item-top {
   height: 420px;
   z-index: 2;
-  overflow-x: hidden;
 }
 
-.body-wrapper .menu .items .item .item-top .item-top-02 {
+.body-wrapper .menu .items .item .item-top .item-top-01 {
   position: absolute;
   bottom: 0px;
   -webkit-transition: 0.5s;
@@ -102,7 +102,7 @@ body {
   border-right: 150px solid transparent;
 }
 
-.body-wrapper .menu .items .item .item-top .item-top-02::after {
+.body-wrapper .menu .items .item .item-top .item-top-01::after {
   content: '';
   width: 250px;
   width: 150px;

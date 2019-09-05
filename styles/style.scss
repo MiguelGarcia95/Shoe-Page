@@ -67,39 +67,50 @@ body {
           overflow-x: hidden;
           &:hover {
             .item-top-01 {
+              height: 180px;
               width: 100%;
+            }
+            .item-top-02 {
+
             }
 
           }
           .item-top-01 {
-            width: 0;
-            height: 0;
-            height: 180px;
-            position: absolute;
-            bottom: 130px;
-            right: 0;
-            background-color: sandybrown;
-            transform: skewY(25deg);
-            transition: 0.5s;
-            border-radius: 15px;
-
+            // width: 0;
+            // height: 0;
+            // position: absolute;
+            // bottom: 130px;
+            // right: 0;
+            // background-color: sandybrown;
+            // transform: skewY(25deg);
+            // transition: 0.5s;
+            // border-radius: 15px;
+    
           }
+
           .item-top-02 {
-            width: 100px;
-            height: 0px;
             position: absolute;
             bottom: 0px;
-            right: -250px;
-            // border-left: 50px solid transparent;
-            // border-right: 50px solid transparent;
-            // border-bottom: 100px solid sandybrown;
-            // background-color: sandybrown;
-            // transform: skew(45deg);
+            transition: 0.5s;
+
             width: 0;
             height: 0;
+            right: -250px;
+            border-top: 240px solid sandybrown;
             border-left: 250px solid transparent;
             border-right: 250px solid transparent;
-            border-top: 200px solid sandybrown;
+            &::after {
+              content: '';
+              height: 180px;
+              width: 250px;
+              position: absolute;
+              bottom: 130px;
+              right: 0;
+              background-color: sandybrown;
+              transform: skewY(25deg);
+              transition: 0.5s;
+              border-radius: 15px;
+            }
           }
         }
         .item-bottom {

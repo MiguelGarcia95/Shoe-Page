@@ -61,7 +61,7 @@ body {
         }
         &:hover {
           .item-part {
-            .item-top-02 {
+            .item-top-01 {
               &::after {
                 height: 180px;
                 width: 250px;
@@ -72,6 +72,7 @@ body {
         .item-top {
           height: 420px;
           z-index: 2;
+
           .item-top-01 {
             position: absolute;
             bottom: 0px;

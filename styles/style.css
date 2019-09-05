@@ -79,7 +79,7 @@ body {
   overflow-x: hidden;
 }
 
-.body-wrapper .menu .items .item:hover .item-part .item-top-02::after {
+.body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
   height: 180px;
   width: 250px;
 }

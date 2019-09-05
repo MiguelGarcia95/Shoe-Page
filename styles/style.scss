@@ -58,42 +58,20 @@ body {
           width: 100%;
           position: absolute;
         }
-        .item-top {
-          height: 420px;
-          // background-color: rosybrown;
-          z-index: 2;
-          border-bottom-right-radius: 0;
-          transform-origin: bottom;
-          overflow-x: hidden;
-          &:hover {
-            .item-top-01 {
-              height: 180px;
-              width: 100%;
-            }
+        &:hover {
+          .item-part {
             .item-top-02 {
-              &:hover {
-                border-top: 200px solid sandybrown;
-                &::after {
-                  height: 180px;
-                  bottom: 130px;
-                }
-
+              &::after {
+                height: 180px;
+                width: 250px;
               }
             }
-
           }
-          .item-top-01 {
-            // width: 0;
-            // height: 0;
-            // position: absolute;
-            // bottom: 130px;
-            // right: 0;
-            // background-color: sandybrown;
-            // transform: skewY(25deg);
-            // transition: 0.5s;
-            // border-radius: 15px;
-    
-          }
+        }
+        .item-top {
+          height: 420px;
+          z-index: 2;
+          overflow-x: hidden;
 
           .item-top-02 {
             position: absolute;
@@ -102,18 +80,17 @@ body {
 
             width: 0;
             height: 0;
-            right: -250px;
-            border-top: 240px solid sandybrown;
-            border-left: 250px solid transparent;
-            border-right: 250px solid transparent;
+            right: -150px;
+            border-top: 180px solid sandybrown;
+            border-left: 150px solid transparent;
+            border-right: 150px solid transparent;
             &::after {
               content: '';
-              height: 180px;
               width: 250px;
+              width: 150px;
+              height: 100px;
               position: absolute;
               bottom: 130px;
-              bottom: 65px;
-              height: 0;
               right: 0;
               background-color: sandybrown;
               transform: skewY(25deg);

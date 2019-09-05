@@ -78,27 +78,15 @@ body {
   position: absolute;
 }
 
+.body-wrapper .menu .items .item:hover .item-part .item-top-02::after {
+  height: 180px;
+  width: 250px;
+}
+
 .body-wrapper .menu .items .item .item-top {
   height: 420px;
   z-index: 2;
-  border-bottom-right-radius: 0;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
   overflow-x: hidden;
-}
-
-.body-wrapper .menu .items .item .item-top:hover .item-top-01 {
-  height: 180px;
-  width: 100%;
-}
-
-.body-wrapper .menu .items .item .item-top:hover .item-top-02:hover {
-  border-top: 200px solid sandybrown;
-}
-
-.body-wrapper .menu .items .item .item-top:hover .item-top-02:hover::after {
-  height: 180px;
-  bottom: 130px;
 }
 
 .body-wrapper .menu .items .item .item-top .item-top-02 {
@@ -108,20 +96,19 @@ body {
   transition: 0.5s;
   width: 0;
   height: 0;
-  right: -250px;
-  border-top: 240px solid sandybrown;
-  border-left: 250px solid transparent;
-  border-right: 250px solid transparent;
+  right: -150px;
+  border-top: 180px solid sandybrown;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
 }
 
 .body-wrapper .menu .items .item .item-top .item-top-02::after {
   content: '';
-  height: 180px;
   width: 250px;
+  width: 150px;
+  height: 100px;
   position: absolute;
   bottom: 130px;
-  bottom: 65px;
-  height: 0;
   right: 0;
   background-color: sandybrown;
   -webkit-transform: skewY(25deg);

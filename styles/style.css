@@ -114,6 +114,14 @@ body {
   bottom: 150px;
 }
 
+.body-wrapper .menu .items .item:hover .item-image .img-shadow {
+  width: 50%;
+}
+
+.body-wrapper .menu .items .item:hover .item-image img {
+  bottom: 100px;
+}
+
 .body-wrapper .menu .items .item .item-part {
   width: 100%;
   position: absolute;
@@ -173,6 +181,8 @@ body {
   width: 70%;
   height: 10px;
   position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   top: 0;
   left: 0;
   right: 0;
@@ -190,6 +200,8 @@ body {
   right: 0;
   z-index: 2;
   margin: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   bottom: 20px;
   position: absolute;
 }

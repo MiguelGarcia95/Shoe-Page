@@ -39,7 +39,7 @@ body {
 
     }
     .items {
-      width: 1500px;
+      width: 1200px;
       height: 500px;
       background-color: steelblue;
       position: absolute;
@@ -50,15 +50,30 @@ body {
         position: absolute;
         bottom: 0;
         width: 250px;
-        height: 300px;
-        background-color: red;
+        height: 500px;
         &:first-of-type {left: 0;}
         &:last-of-type {right: 0;}
-        &:nth-of-type(2) {
-          left: 0; right: 0; margin: auto;
+        &:nth-of-type(2) {left: 0; right: 0; margin: auto;}
+        .item-part {
+          width: 100%;
+          position: absolute;
+        }
+        .item-top {
+          height: 420px;
+          // background-color: rosybrown;
+          z-index: 2;
+          border-bottom-right-radius: 0;
+          transform-origin: bottom;
+        }
+        .item-bottom {
+          height: 300px;
+          background-color: #f0f0f0;
+          z-index: 1;
+          bottom: 0;
+          border-radius: 20px;
         }
         .item-image {
-
+          
         }
         .item-category {
 

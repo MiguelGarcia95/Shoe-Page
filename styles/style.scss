@@ -71,7 +71,14 @@ body {
               width: 100%;
             }
             .item-top-02 {
+              &:hover {
+                border-top: 200px solid sandybrown;
+                &::after {
+                  height: 180px;
+                  bottom: 130px;
+                }
 
+              }
             }
 
           }
@@ -105,6 +112,8 @@ body {
               width: 250px;
               position: absolute;
               bottom: 130px;
+              bottom: 65px;
+              height: 0;
               right: 0;
               background-color: sandybrown;
               transform: skewY(25deg);

@@ -92,6 +92,15 @@ body {
   width: 100%;
 }
 
+.body-wrapper .menu .items .item .item-top:hover .item-top-02:hover {
+  border-top: 200px solid sandybrown;
+}
+
+.body-wrapper .menu .items .item .item-top:hover .item-top-02:hover::after {
+  height: 180px;
+  bottom: 130px;
+}
+
 .body-wrapper .menu .items .item .item-top .item-top-02 {
   position: absolute;
   bottom: 0px;
@@ -111,6 +120,8 @@ body {
   width: 250px;
   position: absolute;
   bottom: 130px;
+  bottom: 65px;
+  height: 0;
   right: 0;
   background-color: sandybrown;
   -webkit-transform: skewY(25deg);

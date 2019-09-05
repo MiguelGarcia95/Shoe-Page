@@ -12,6 +12,16 @@ body {
   // -ms-overflow-style: none;
 }
 
+@mixin Item ($color) {
+  .item-bottom {background-color: $color;}
+    .item-part {
+      .item-top-01 {
+        border-top: 180px solid $color;
+        &::after {background-color: $color;}
+      }
+    }
+}
+
 .body-wrapper {
   width: 100vw; height: 100vh;
   max-width: 100%;
@@ -41,60 +51,62 @@ body {
     .items {
       width: 1200px;
       height: 500px;
-      background-color: steelblue;
-      position: absolute;
+    position: absolute;
       left: 150px; right: 0;
       margin: auto;
       bottom: 50px;
       .item {
+        width: 250px; height: 500px;
         position: absolute;
         bottom: 0;
-        width: 250px;
-        height: 500px;
-        &:first-of-type {left: 0;}
-        &:last-of-type {right: 0;}
-        &:nth-of-type(2) {left: 0; right: 0; margin: auto;}
-        .item-part {
-          width: 100%;
-          position: absolute;
-          overflow-x: hidden;
+        &:first-of-type {
+          left: 0;
+          @include Item(#f0f0f0);
+        }
+        &:last-of-type {
+          right: 0;
+          @include Item(#232323);
+        }
+        &:nth-of-type(2) {
+          left: 0; right: 0; margin: auto;
+          @include Item(#12a4fe);
         }
         &:hover {
           .item-part {
             .item-top-01 {
               &::after {
-                height: 180px;
+                height: 210px;
                 width: 250px;
+                bottom: 150px;
               }
             }
           }
         }
+        .item-part {
+          width: 100%;
+          position: absolute;
+          overflow-x: hidden;
+        }
         .item-top {
           height: 420px;
           z-index: 2;
-
           .item-top-01 {
+            width: 0; height: 0;
             position: absolute;
             bottom: 0px;
             transition: 0.5s;
-
-            width: 0;
-            height: 0;
             right: -150px;
-            border-top: 180px solid sandybrown;
+            border-top: 180px solid transparent;
             border-left: 150px solid transparent;
             border-right: 150px solid transparent;
             &::after {
               content: '';
-              width: 250px;
-              width: 150px;
-              height: 100px;
+              width: 150px; height: 150px;
+              transition: 0.5s;
               position: absolute;
               bottom: 130px;
               right: 0;
-              background-color: sandybrown;
               transform: skewY(25deg);
-              transition: 0.5s;
               border-radius: 15px;
             }
           }

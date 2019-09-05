@@ -44,7 +44,6 @@ body {
 .body-wrapper .menu .items {
   width: 1200px;
   height: 500px;
-  background-color: steelblue;
   position: absolute;
   left: 150px;
   right: 0;
@@ -53,18 +52,42 @@ body {
 }
 
 .body-wrapper .menu .items .item {
-  position: absolute;
-  bottom: 0;
   width: 250px;
   height: 500px;
+  position: absolute;
+  bottom: 0;
 }
 
 .body-wrapper .menu .items .item:first-of-type {
   left: 0;
 }
 
+.body-wrapper .menu .items .item:first-of-type .item-bottom {
+  background-color: #f0f0f0;
+}
+
+.body-wrapper .menu .items .item:first-of-type .item-part .item-top-01 {
+  border-top: 180px solid #f0f0f0;
+}
+
+.body-wrapper .menu .items .item:first-of-type .item-part .item-top-01::after {
+  background-color: #f0f0f0;
+}
+
 .body-wrapper .menu .items .item:last-of-type {
   right: 0;
+}
+
+.body-wrapper .menu .items .item:last-of-type .item-bottom {
+  background-color: #232323;
+}
+
+.body-wrapper .menu .items .item:last-of-type .item-part .item-top-01 {
+  border-top: 180px solid #232323;
+}
+
+.body-wrapper .menu .items .item:last-of-type .item-part .item-top-01::after {
+  background-color: #232323;
 }
 
 .body-wrapper .menu .items .item:nth-of-type(2) {
@@ -73,15 +96,28 @@ body {
   margin: auto;
 }
 
+.body-wrapper .menu .items .item:nth-of-type(2) .item-bottom {
+  background-color: #12a4fe;
+}
+
+.body-wrapper .menu .items .item:nth-of-type(2) .item-part .item-top-01 {
+  border-top: 180px solid #12a4fe;
+}
+
+.body-wrapper .menu .items .item:nth-of-type(2) .item-part .item-top-01::after {
+  background-color: #12a4fe;
+}
+
+.body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
+  height: 210px;
+  width: 250px;
+  bottom: 150px;
+}
+
 .body-wrapper .menu .items .item .item-part {
   width: 100%;
   position: absolute;
   overflow-x: hidden;
-}
-
-.body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
-  height: 180px;
-  width: 250px;
 }
 
 .body-wrapper .menu .items .item .item-top {
@@ -90,31 +126,29 @@ body {
 }
 
 .body-wrapper .menu .items .item .item-top .item-top-01 {
+  width: 0;
+  height: 0;
   position: absolute;
   bottom: 0px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  width: 0;
-  height: 0;
   right: -150px;
-  border-top: 180px solid sandybrown;
+  border-top: 180px solid transparent;
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
 }
 
 .body-wrapper .menu .items .item .item-top .item-top-01::after {
   content: '';
-  width: 250px;
   width: 150px;
-  height: 100px;
+  height: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   position: absolute;
   bottom: 130px;
   right: 0;
-  background-color: sandybrown;
   -webkit-transform: skewY(25deg);
           transform: skewY(25deg);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   border-radius: 15px;
 }
 

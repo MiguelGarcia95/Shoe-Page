@@ -50,13 +50,13 @@ body {
     }
     .items {
       width: 1200px;
-      height: 500px;
+      height: 600px;
     position: absolute;
       left: 150px; right: 0;
       margin: auto;
       bottom: 50px;
       .item {
-        width: 250px; height: 500px;
+        width: 250px; height: 600px;
         position: absolute;
         bottom: 0;
         &:first-of-type {
@@ -75,7 +75,7 @@ body {
           .item-part {
             .item-top-01 {
               &::after {
-                height: 210px;
+                height: 250px;
                 width: 250px;
                 bottom: 150px;
               }
@@ -88,7 +88,7 @@ body {
           overflow-x: hidden;
         }
         .item-top {
-          height: 420px;
+          height: 520px;
           z-index: 2;
           .item-top-01 {
             width: 0; height: 0;
@@ -101,7 +101,7 @@ body {
             border-right: 150px solid transparent;
             &::after {
               content: '';
-              width: 150px; height: 150px;
+              width: 150px; height: 180px;
               transition: 0.5s;
               position: absolute;
               bottom: 130px;

@@ -80,6 +80,16 @@ background: linear-gradient(to top, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Fir
           top: 15%; right: 40%;
           width: 120px; height: 120px;
         }
+        #shape_01 {
+          left: 10%; top: -20%;
+        }
+        #shape_02 {
+          right: 5%; top: 15%;
+          width: 300px;
+        }
+        #shape_03 {
+          left: 30%; bottom: 5%;
+        }
       }
       .shadows {
         position: absolute;

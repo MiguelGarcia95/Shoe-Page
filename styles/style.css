@@ -108,6 +108,22 @@ body {
   height: 120px;
 }
 
+.body-wrapper .menu .background .details #shape_01 {
+  left: 10%;
+  top: -20%;
+}
+
+.body-wrapper .menu .background .details #shape_02 {
+  right: 5%;
+  top: 15%;
+  width: 300px;
+}
+
+.body-wrapper .menu .background .details #shape_03 {
+  left: 30%;
+  bottom: 5%;
+}
+
 .body-wrapper .menu .background .shadows {
   position: absolute;
   width: 100%;

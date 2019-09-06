@@ -119,19 +119,41 @@ body {
       }
     }
     .title {
-
+      color: white;
+      color: #232323;
+      position: absolute;
+      left: 250px;
+      top: 0; bottom: 450px;
+      margin: auto;
+      height: 200px;
+      width: 500px;
+      p {
+        text-align: left;
+        line-height: 100px;
+        font-size: 5rem;
+        font-weight: 300;
+      }
     }
     .items {
       width: 1200px;
       height: 600px;
-    position: absolute;
+      position: absolute;
       left: 150px; right: 0;
       margin: auto;
-      bottom: 50px;
+      bottom: 100px;
       .item {
         width: 250px; height: 600px;
         position: absolute;
         bottom: 0;
+        .item-shadow {
+          box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.3);
+          border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+          transform: rotate(-1deg);
+          width: 200px; height: 10px;
+          left: 25px;
+          position: absolute;
+          bottom: -25px;
+        }
         &:first-of-type {
           left: 0;
           @include Item(#f0f0f0);
@@ -139,10 +161,14 @@ body {
         &:last-of-type {
           right: 0;
           @include Item(#232323);
+          @include Item(#f0f0f0);
+
         }
         &:nth-of-type(2) {
           left: 0; right: 0; margin: auto;
           @include Item(#12a4fe);
+          @include Item(#f0f0f0);
+
         }
         &:hover {
           .item-part {
@@ -247,7 +273,7 @@ body {
           z-index: 2;
           width: 150px;
           p {
-            font-size: 0.9rem;
+            // font-size: 0.9rem;
             letter-spacing: 2px;
             text-transform: uppercase;
             margin: 0;

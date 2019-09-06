@@ -90,6 +90,15 @@ background: linear-gradient(to top, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Fir
         position: absolute;
         width: 100%; height: 100%;
         img {width: 100%; height: 100%;}
+        #bg_shape_01 {width: 50%; height: auto;}
+        #bg_shape_02 {
+          width: 50%; height: auto;
+          right: 0; bottom: 0;
+        }
+        #bg_shape_03 {
+          width: 50%; height: auto;
+          left: 0; bottom: 0;
+        }
       }
     }
     .title {

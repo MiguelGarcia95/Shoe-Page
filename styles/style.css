@@ -130,6 +130,25 @@ body {
   height: 100%;
 }
 
+.body-wrapper .menu .background .shapes #bg_shape_01 {
+  width: 50%;
+  height: auto;
+}
+
+.body-wrapper .menu .background .shapes #bg_shape_02 {
+  width: 50%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.body-wrapper .menu .background .shapes #bg_shape_03 {
+  width: 50%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+}
+
 .body-wrapper .menu .items {
   width: 1200px;
   height: 600px;

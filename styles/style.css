@@ -390,8 +390,16 @@ body {
   margin: 0;
 }
 
-.body-wrapper .shoe {
-  background-color: red;
+.body-wrapper .shoe.shoe_01 {
+  background-color: #ee4e4e;
+}
+
+.body-wrapper .shoe.shoe_01 .title h1 {
+  color: rgba(128, 38, 38, 0.5);
+}
+
+.body-wrapper .shoe.shoe_01 .title h1::before {
+  content: 'NIKE AIR';
 }
 
 .body-wrapper .shoe .display {
@@ -409,6 +417,21 @@ body {
   right: 0;
   margin: auto;
   width: 40%;
+  z-index: 2;
+}
+
+.body-wrapper .shoe .display .shoe-shadow {
+  position: absolute;
+  bottom: 100px;
+  bottom: 150px;
+  left: 0px;
+  right: 0;
+  margin: auto;
+  width: 40%;
+  height: 0px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.5), 0px 0px 100px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.5), 0px 0px 100px 10px rgba(0, 0, 0, 0.5);
 }
 
 .body-wrapper .shoe .title {
@@ -419,7 +442,6 @@ body {
 }
 
 .body-wrapper .shoe .title h1 {
-  color: rgba(133, 80, 80, 0.5);
   line-height: 500px;
   height: 500px;
   text-align: center;
@@ -431,5 +453,16 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+.body-wrapper .shoe .title h1::before {
+  position: absolute;
+  top: -80px;
+  right: 300px;
+  margin: auto;
+  height: 80px;
+  color: black;
+  line-height: 80px;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=style.css.map */

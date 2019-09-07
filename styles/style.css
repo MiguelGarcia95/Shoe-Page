@@ -396,6 +396,24 @@ body {
 
 .body-wrapper .shoe.shoe_01 .title h1 {
   color: rgba(128, 38, 38, 0.5);
+  letter-spacing: -2px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_01 .subtitle {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01 .description {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01 .sm_title {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01 .back {
+  color: white;
 }
 
 .body-wrapper .shoe .display {
@@ -414,6 +432,7 @@ body {
   margin: auto;
   width: 40%;
   z-index: 2;
+  max-width: 650px;
 }
 
 .body-wrapper .shoe .display .shoe-shadow {
@@ -458,6 +477,15 @@ body {
   right: 0;
 }
 
+.body-wrapper .shoe .display .subtitle .description {
+  font-size: 1.1rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  width: 300px;
+  bottom: -50px;
+  left: -120px;
+}
+
 .body-wrapper .shoe .title {
   width: 100%;
   height: 100%;
@@ -470,8 +498,6 @@ body {
   height: 500px;
   width: 1000px;
   text-align: center;
-  letter-spacing: -2px;
-  font-size: 30rem;
   font-family: 'Fjalla One';
   position: absolute;
   left: 0;

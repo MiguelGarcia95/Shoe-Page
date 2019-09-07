@@ -288,9 +288,11 @@ body {
       }
     }
     // .background {}
-    .display {
+    .display, .title{
       width: 100%; height: 100%;
       position: absolute;
+    }
+    .display {
       z-index: 2;
       img, .shoe-shadow, .subtitle  {
         position: absolute;
@@ -332,8 +334,6 @@ body {
       }
     }
     .title {
-      width: 100%; height: 100%;
-      position: absolute;
       z-index: 1;
       h1 {
         line-height: 500px;
@@ -346,10 +346,12 @@ body {
         margin: auto;
       }
     }
-    .sm_title {
+    .sm_title, .colors, .back {
       position: absolute;
-      bottom: 0; left: 0; right: 0;
       margin: auto;
+    }
+    .sm_title {
+      bottom: 0; left: 0; right: 0;
       text-align: center;
       font-size: 1.5rem;
       line-height: 80px;
@@ -357,10 +359,8 @@ body {
       font-family: 'Fjalla One';
     }
     .colors {
-      position: absolute;
       right: 0;
       top: 0; bottom: 0;
-      margin: auto;
       width: 50px;
       background-color: rgba(0,0,0,0.1);
       height: 250px;
@@ -385,9 +385,7 @@ body {
       }
     }
     .back {
-      position: absolute;
       bottom: 0; left: 50px; 
-      margin: auto;
       height: 80px;
       z-index: 3;
       width: 360px;

@@ -482,10 +482,13 @@ body {
   font-size: 30rem;
 }
 
-.body-wrapper .shoe .display {
+.body-wrapper .shoe .display, .body-wrapper .shoe .title {
   width: 100%;
   height: 100%;
   position: absolute;
+}
+
+.body-wrapper .shoe .display {
   z-index: 2;
 }
 
@@ -546,9 +549,6 @@ body {
 }
 
 .body-wrapper .shoe .title {
-  width: 100%;
-  height: 100%;
-  position: absolute;
   z-index: 1;
 }
 
@@ -566,12 +566,15 @@ body {
   margin: auto;
 }
 
-.body-wrapper .shoe .sm_title {
+.body-wrapper .shoe .sm_title, .body-wrapper .shoe .colors, .body-wrapper .shoe .back {
   position: absolute;
+  margin: auto;
+}
+
+.body-wrapper .shoe .sm_title {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
   text-align: center;
   font-size: 1.5rem;
   line-height: 80px;
@@ -580,11 +583,9 @@ body {
 }
 
 .body-wrapper .shoe .colors {
-  position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
-  margin: auto;
   width: 50px;
   background-color: rgba(0, 0, 0, 0.1);
   height: 250px;
@@ -633,10 +634,8 @@ body {
 }
 
 .body-wrapper .shoe .back {
-  position: absolute;
   bottom: 0;
   left: 50px;
-  margin: auto;
   height: 80px;
   z-index: 3;
   width: 360px;

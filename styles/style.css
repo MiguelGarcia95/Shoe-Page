@@ -490,8 +490,6 @@ body {
   width: 40%;
   z-index: 2;
   max-width: 650px;
-  -webkit-transform: scale(-1, 1);
-          transform: scale(-1, 1);
 }
 
 .body-wrapper .shoe .display .shoe-shadow {

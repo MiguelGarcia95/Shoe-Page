@@ -390,7 +390,12 @@ body {
   margin: 0;
 }
 
+.body-wrapper .shoe {
+  display: none;
+}
+
 .body-wrapper .shoe.shoe_01.show_01_black {
+  display: block;
   background-color: #232323;
 }
 

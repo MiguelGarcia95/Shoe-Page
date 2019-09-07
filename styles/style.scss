@@ -284,8 +284,10 @@ body {
   }
 
   .shoe {
+    display: none;
     &.shoe_01 {
       &.show_01_black {
+        display: block;
         background-color: #232323;
         .title {
           h1 {

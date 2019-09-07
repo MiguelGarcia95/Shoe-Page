@@ -275,46 +275,16 @@ body {
     &.shoe_01 {
       &.show_01_black {
         display: block;
-        background-color: #232323;
-        .title {
-          h1 {
-            color: rgba(0, 0, 0, 0.2);
-            letter-spacing: -2px;
-            font-size: 30rem;
-          }
-        }
-        .subtitle {color: white;}
-        .description {color: white;}
-        .sm_title {color: white;}
-        .back {color: white;}
+        @include contentColor(#232323, rgba(0,0,0,0.2), white);
+        @include contentSetting(30rem, -2px);
       }
       &.show_01_white {
-        background-color: #d1d1d1;
-        .title {
-          h1 {
-            color: rgba(255, 255, 255, 0.3);
-            letter-spacing: -2px;
-            font-size: 30rem;
-          }
-        }
-        .subtitle {color: #232323;}
-        .description {color: #232323;}
-        .sm_title {color: #232323;}
-        .back {color: #232323;}
+        @include contentColor(#d1d1d1, rgba(255, 255, 255, 0.3), #232323);
+        @include contentSetting(30rem, -2px);
       }
       &.show_01_pink {
-        background-color: #da9fb6;
-        .title {
-          h1 {
-            color: rgba(226, 171, 205, 0.4);
-            letter-spacing: -2px;
-            font-size: 30rem;
-          }
-        }
-        .subtitle {color: #232323;}
-        .description {color: #232323;}
-        .sm_title {color: #232323;}
-        .back {color: #232323;}
+        @include contentColor(#da9fb6, rgba(226, 171, 205, 0.4), #232323);
+        @include contentSetting(30rem, -2px);
       }
     }
     .background {}

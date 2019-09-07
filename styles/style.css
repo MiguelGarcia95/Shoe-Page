@@ -401,8 +401,6 @@ body {
 
 .body-wrapper .shoe.shoe_01.show_01_black .title h1 {
   color: rgba(0, 0, 0, 0.2);
-  letter-spacing: -2px;
-  font-size: 30rem;
 }
 
 .body-wrapper .shoe.shoe_01.show_01_black .subtitle {
@@ -421,14 +419,17 @@ body {
   color: white;
 }
 
+.body-wrapper .shoe.shoe_01.show_01_black .title h1 {
+  letter-spacing: -2px;
+  font-size: 30rem;
+}
+
 .body-wrapper .shoe.shoe_01.show_01_white {
   background-color: #d1d1d1;
 }
 
 .body-wrapper .shoe.shoe_01.show_01_white .title h1 {
   color: rgba(255, 255, 255, 0.3);
-  letter-spacing: -2px;
-  font-size: 30rem;
 }
 
 .body-wrapper .shoe.shoe_01.show_01_white .subtitle {
@@ -447,14 +448,17 @@ body {
   color: #232323;
 }
 
+.body-wrapper .shoe.shoe_01.show_01_white .title h1 {
+  letter-spacing: -2px;
+  font-size: 30rem;
+}
+
 .body-wrapper .shoe.shoe_01.show_01_pink {
   background-color: #da9fb6;
 }
 
 .body-wrapper .shoe.shoe_01.show_01_pink .title h1 {
   color: rgba(226, 171, 205, 0.4);
-  letter-spacing: -2px;
-  font-size: 30rem;
 }
 
 .body-wrapper .shoe.shoe_01.show_01_pink .subtitle {
@@ -471,6 +475,11 @@ body {
 
 .body-wrapper .shoe.shoe_01.show_01_pink .back {
   color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.show_01_pink .title h1 {
+  letter-spacing: -2px;
+  font-size: 30rem;
 }
 
 .body-wrapper .shoe .display {

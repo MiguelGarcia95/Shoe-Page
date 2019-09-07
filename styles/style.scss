@@ -285,18 +285,21 @@ body {
 
   .shoe {
     &.shoe_01 {
-      background-color: rgb(238, 78, 78);
-      .title {
-        h1 {
-          color: rgba(128, 38, 38, 0.5);
-          letter-spacing: -2px;
-          font-size: 30rem;
+      &.show_01_black {
+        background-color: #232323;
+        .title {
+          h1 {
+            color: rgba(0, 0, 0, 0.2);
+            letter-spacing: -2px;
+            font-size: 30rem;
+          }
         }
+        .subtitle {color: white;}
+        .description {color: white;}
+        .sm_title {color: white;}
+        .back {color: white;}
       }
-      .subtitle {color: white;}
-      .description {color: white;}
-      .sm_title {color: white;}
-      .back {color: white;}
+
     }
     .background {}
     .display {

@@ -390,29 +390,29 @@ body {
   margin: 0;
 }
 
-.body-wrapper .shoe.shoe_01 {
-  background-color: #ee4e4e;
+.body-wrapper .shoe.shoe_01.show_01_black {
+  background-color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01 .title h1 {
-  color: rgba(128, 38, 38, 0.5);
+.body-wrapper .shoe.shoe_01.show_01_black .title h1 {
+  color: rgba(0, 0, 0, 0.2);
   letter-spacing: -2px;
   font-size: 30rem;
 }
 
-.body-wrapper .shoe.shoe_01 .subtitle {
+.body-wrapper .shoe.shoe_01.show_01_black .subtitle {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01 .description {
+.body-wrapper .shoe.shoe_01.show_01_black .description {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01 .sm_title {
+.body-wrapper .shoe.shoe_01.show_01_black .sm_title {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01 .back {
+.body-wrapper .shoe.shoe_01.show_01_black .back {
   color: white;
 }
 

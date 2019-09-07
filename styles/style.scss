@@ -289,9 +289,6 @@ body {
       .title {
         h1 {
           color: rgba(128, 38, 38, 0.5);
-          &::before {
-            content: 'NIKE AIR';
-          }
         }
         
       }
@@ -320,6 +317,22 @@ body {
         box-shadow: 0px 0px 100px 10px rgba(0,0,0,0.5),
                     0px 0px 100px 10px rgba(0,0,0,0.5);
       }
+      .subtitle {
+        position: absolute;
+        height: 500px; width: 1000px;
+        left: 0; top: 0; 
+        bottom: 0; right: 0;
+        margin: auto;
+        p {
+          font-family: 'Fjalla One';
+          font-weight: 800;
+          font-size: 4rem;
+          position: absolute;
+        }
+        .subtitle_01 {top: -50px; left: 0;}
+        .subtitle_02 {bottom: -30px; right: 0;}
+
+      }
     }
     .title {
       width: 100%; height: 100%;
@@ -328,22 +341,14 @@ body {
       h1 {
         line-height: 500px;
         height: 500px;
+        width: 1000px;
         text-align: center;
+        letter-spacing: -2px;
         font-size: 30rem;
         font-family: 'Fjalla One';
         position: absolute;
         left: 0; right: 0; top: 0; bottom: 0;
         margin: auto;
-        &::before {
-          position: absolute;
-          top: -80px; 
-          right: 300px;
-          margin: auto;
-          height: 80px;
-          color: black;
-          line-height: 80px;
-          font-size: 4rem;
-        }
       }
 
     }

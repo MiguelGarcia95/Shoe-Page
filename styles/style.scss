@@ -311,6 +311,7 @@ body {
         width: 40%;
         z-index: 2;
         max-width: 650px;
+        transform: scale(-1, 1);
       }
       .shoe-shadow {
         position: absolute;
@@ -335,14 +336,14 @@ body {
           font-size: 4rem;
           position: absolute;
         }
-        .subtitle_01 {top: -50px; left: 0;}
-        .subtitle_02 {bottom: -30px; right: 0;}
+        .subtitle_01 {top: -50px; left: -100px;}
+        .subtitle_02 {bottom: -30px; right: -100px;}
         .description {
           font-size: 1.1rem;
           font-family: 'Montserrat';
           font-weight: 300;
-          width: 300px;
-          bottom: -50px;
+          width: 500px;
+          bottom: -30px;
           left: -120px;
         }
       }
@@ -374,13 +375,54 @@ body {
       font-family: 'Fjalla One';
     }
     .back {
-      font-family: 'Fjalla One';
       position: absolute;
       bottom: 0; left: 50px; 
       margin: auto;
-      font-size: 1.5rem;
-      line-height: 80px;
       height: 80px;
+      p {
+        font-family: 'Fjalla One';
+        font-size: 1.5rem;
+        line-height: 80px;
+        height: 80px;
+        width: 60px;
+        overflow: hidden;
+        position: absolute;
+      }
+      .head {
+        position: absolute;
+        height: 30px;
+        left: 60px;
+        bottom: 15px;
+        &::before {
+          position: absolute;
+          content: '';
+          width: 30px;
+          height: 3px;
+          transform: rotate(-30deg);
+          background-color: white;
+          top: -7px;
+          left: -2px;
+        }
+        &::after {
+          position: absolute;
+          content: '';
+          width: 30px;
+          height: 3px;
+          transform: rotate(30deg);
+          background-color: white;
+          top: 7px;
+          left: -2px;
+        }
+      }
+      .arrow {
+        width: 300px;
+        height: 3px;
+        margin-bottom: 27px;
+        background-color: white;
+        position: absolute;
+        left: 65px;
+        bottom: 15px;
+      }
     }
   }
 }

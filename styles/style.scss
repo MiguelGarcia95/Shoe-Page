@@ -362,7 +362,25 @@ body {
         margin: auto;
       }
     }
-    .back {}
     .colors {}
+    .sm_title {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      margin: auto;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 80px;
+      height: 80px;
+      font-family: 'Fjalla One';
+    }
+    .back {
+      font-family: 'Fjalla One';
+      position: absolute;
+      bottom: 0; left: 50px; 
+      margin: auto;
+      font-size: 1.5rem;
+      line-height: 80px;
+      height: 80px;
+    }
   }
 }

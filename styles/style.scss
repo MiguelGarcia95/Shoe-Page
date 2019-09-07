@@ -273,21 +273,37 @@ body {
   .shoe {
     display: none;
     &.shoe_01 {
-      &.show_01_black {
-        display: block;
+      &.shoe_01_black {
+        // display: block;
         @include contentColor(#232323, rgba(0,0,0,0.2), white);
         @include contentSetting(30rem, -2px);
       }
-      &.show_01_white {
+      &.shoe_01_white {
         @include contentColor(#d1d1d1, rgba(255, 255, 255, 0.3), #232323);
         @include contentSetting(30rem, -2px);
       }
-      &.show_01_pink {
+      &.shoe_01_pink {
         @include contentColor(#da9fb6, rgba(226, 171, 205, 0.4), #232323);
         @include contentSetting(30rem, -2px);
       }
     }
-    // .background {}
+    &.shoe_02 {
+      &.shoe_02_black {
+        display: block;
+        @include contentColor(#232323, rgba(0,0,0,0.2), white);
+        @include contentSetting(30rem, -5px);
+      }
+      &.shoe_02_yellow {
+        // display: block;
+        @include contentColor(#cda41d, rgba(241, 210, 70, 0.418), #232323);
+        @include contentSetting(30rem, -5px);
+      }
+      &.shoe_02_pink {
+        // display: block;
+        @include contentColor(#da9fb6, #dababcab, #232323);
+        @include contentSetting(30rem, -5px);
+      }
+    }
     .display, .title{
       width: 100%; height: 100%;
       position: absolute;
@@ -371,13 +387,13 @@ body {
         height: 20px;
         cursor: pointer;
         border-radius: 50%;
-        &.red {background-color: red;}
-        &.blue {background-color: blue;}
-        &.green {background-color: green;}
-        &.yellow {background-color: yellow;}
-        &.pink {background-color: pink;}
-        &.white {background-color: white;}
-        &.black {background-color: black;}
+        &.red {background-color: rgb(219, 108, 108);}
+        &.blue {background-color: rgb(156, 156, 253);}
+        &.green {background-color: rgb(108, 175, 108);}
+        &.yellow {background-color: rgb(243, 243, 114);}
+        &.pink {background-color: rgb(255, 190, 201);}
+        &.white {background-color: rgb(245, 241, 241);}
+        &.black {background-color: rgb(22, 21, 21);}
         &.selected {
           box-shadow: 0px 0px 5px 0px #f0f0f0,
                       0px 0px 5px 0px #ffffff;

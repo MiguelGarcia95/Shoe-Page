@@ -394,91 +394,178 @@ body {
   display: none;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black {
+.body-wrapper .shoe.shoe_01.shoe_01_black {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .subtitle {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .description {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .sm_title {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .back {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
+  letter-spacing: -2px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white {
+  background-color: #d1d1d1;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .subtitle {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .description {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .sm_title {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .back {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
+  letter-spacing: -2px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink {
+  background-color: #da9fb6;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
+  color: rgba(226, 171, 205, 0.4);
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .subtitle {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .description {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .sm_title {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .back {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
+  letter-spacing: -2px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_black {
   display: block;
   background-color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black .title h1 {
+.body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
   color: rgba(0, 0, 0, 0.2);
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black .subtitle {
+.body-wrapper .shoe.shoe_02.shoe_02_black .subtitle {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black .description {
+.body-wrapper .shoe.shoe_02.shoe_02_black .description {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black .sm_title {
+.body-wrapper .shoe.shoe_02.shoe_02_black .sm_title {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black .back {
+.body-wrapper .shoe.shoe_02.shoe_02_black .back {
   color: white;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_black .title h1 {
-  letter-spacing: -2px;
+.body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
+  letter-spacing: -5px;
   font-size: 30rem;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white {
-  background-color: #d1d1d1;
+.body-wrapper .shoe.shoe_02.shoe_02_yellow {
+  background-color: #cda41d;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white .title h1 {
-  color: rgba(255, 255, 255, 0.3);
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
+  color: rgba(241, 210, 70, 0.418);
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white .subtitle {
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .subtitle {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white .description {
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .description {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white .sm_title {
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .sm_title {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white .back {
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .back {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_white .title h1 {
-  letter-spacing: -2px;
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
+  letter-spacing: -5px;
   font-size: 30rem;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink {
+.body-wrapper .shoe.shoe_02.shoe_02_pink {
   background-color: #da9fb6;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink .title h1 {
-  color: rgba(226, 171, 205, 0.4);
+.body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+  color: #dababcab;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink .subtitle {
+.body-wrapper .shoe.shoe_02.shoe_02_pink .subtitle {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink .description {
+.body-wrapper .shoe.shoe_02.shoe_02_pink .description {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink .sm_title {
+.body-wrapper .shoe.shoe_02.shoe_02_pink .sm_title {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink .back {
+.body-wrapper .shoe.shoe_02.shoe_02_pink .back {
   color: #232323;
 }
 
-.body-wrapper .shoe.shoe_01.show_01_pink .title h1 {
-  letter-spacing: -2px;
+.body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+  letter-spacing: -5px;
   font-size: 30rem;
 }
 
@@ -601,31 +688,31 @@ body {
 }
 
 .body-wrapper .shoe .colors .color.red {
-  background-color: red;
+  background-color: #db6c6c;
 }
 
 .body-wrapper .shoe .colors .color.blue {
-  background-color: blue;
+  background-color: #9c9cfd;
 }
 
 .body-wrapper .shoe .colors .color.green {
-  background-color: green;
+  background-color: #6caf6c;
 }
 
 .body-wrapper .shoe .colors .color.yellow {
-  background-color: yellow;
+  background-color: #f3f372;
 }
 
 .body-wrapper .shoe .colors .color.pink {
-  background-color: pink;
+  background-color: #ffbec9;
 }
 
 .body-wrapper .shoe .colors .color.white {
-  background-color: white;
+  background-color: #f5f1f1;
 }
 
 .body-wrapper .shoe .colors .color.black {
-  background-color: black;
+  background-color: #161515;
 }
 
 .body-wrapper .shoe .colors .color.selected {

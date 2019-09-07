@@ -489,25 +489,24 @@ body {
   z-index: 2;
 }
 
-.body-wrapper .shoe .display img {
+.body-wrapper .shoe .display img, .body-wrapper .shoe .display .shoe-shadow, .body-wrapper .shoe .display .subtitle {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  left: 0px;
   right: 0;
   margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.body-wrapper .shoe .display img {
   width: 40%;
   z-index: 2;
   max-width: 650px;
 }
 
 .body-wrapper .shoe .display .shoe-shadow {
-  position: absolute;
   bottom: 100px;
   bottom: 150px;
-  left: 0px;
-  right: 0;
-  margin: auto;
   width: 40%;
   height: 0px;
   border-radius: 50%;
@@ -516,14 +515,8 @@ body {
 }
 
 .body-wrapper .shoe .display .subtitle {
-  position: absolute;
   height: 500px;
   width: 1000px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
 }
 
 .body-wrapper .shoe .display .subtitle p {

@@ -522,12 +522,68 @@ body {
   font-family: 'Fjalla One';
 }
 
+.body-wrapper .shoe .colors {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 250px;
+  z-index: 3;
+}
+
+.body-wrapper .shoe .colors .color {
+  margin: 45px auto;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.body-wrapper .shoe .colors .color.red {
+  background-color: red;
+}
+
+.body-wrapper .shoe .colors .color.blue {
+  background-color: blue;
+}
+
+.body-wrapper .shoe .colors .color.green {
+  background-color: green;
+}
+
+.body-wrapper .shoe .colors .color.yellow {
+  background-color: yellow;
+}
+
+.body-wrapper .shoe .colors .color.pink {
+  background-color: pink;
+}
+
+.body-wrapper .shoe .colors .color.white {
+  background-color: white;
+}
+
+.body-wrapper .shoe .colors .color.black {
+  background-color: black;
+}
+
+.body-wrapper .shoe .colors .color.selected {
+  -webkit-box-shadow: 0px 0px 5px 0px #f0f0f0, 0px 0px 5px 0px #ffffff;
+          box-shadow: 0px 0px 5px 0px #f0f0f0, 0px 0px 5px 0px #ffffff;
+}
+
 .body-wrapper .shoe .back {
   position: absolute;
   bottom: 0;
   left: 50px;
   margin: auto;
   height: 80px;
+  z-index: 3;
+  width: 360px;
+  cursor: pointer;
 }
 
 .body-wrapper .shoe .back p {
@@ -538,6 +594,7 @@ body {
   width: 60px;
   overflow: hidden;
   position: absolute;
+  z-index: 3;
 }
 
 .body-wrapper .shoe .back .head {
@@ -577,7 +634,7 @@ body {
   margin-bottom: 27px;
   background-color: white;
   position: absolute;
-  left: 65px;
+  left: 60px;
   bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */

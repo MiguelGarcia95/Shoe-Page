@@ -363,7 +363,6 @@ body {
         margin: auto;
       }
     }
-    .colors {}
     .sm_title {
       position: absolute;
       bottom: 0; left: 0; right: 0;
@@ -374,11 +373,42 @@ body {
       height: 80px;
       font-family: 'Fjalla One';
     }
+    .colors {
+      position: absolute;
+      right: 0;
+      top: 0; bottom: 0;
+      margin: auto;
+      width: 50px;
+      background-color: rgba(0,0,0,0.1);
+      height: 250px;
+      z-index: 3;
+      .color {
+        margin: 45px auto;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+        &.red {background-color: red;}
+        &.blue {background-color: blue;}
+        &.green {background-color: green;}
+        &.yellow {background-color: yellow;}
+        &.pink {background-color: pink;}
+        &.white {background-color: white;}
+        &.black {background-color: black;}
+        &.selected {
+          box-shadow: 0px 0px 5px 0px #f0f0f0,
+                      0px 0px 5px 0px #ffffff;
+        }
+      }
+    }
     .back {
       position: absolute;
       bottom: 0; left: 50px; 
       margin: auto;
       height: 80px;
+      z-index: 3;
+      width: 360px;
+      cursor: pointer;
       p {
         font-family: 'Fjalla One';
         font-size: 1.5rem;
@@ -387,6 +417,7 @@ body {
         width: 60px;
         overflow: hidden;
         position: absolute;
+      z-index: 3;
       }
       .head {
         position: absolute;
@@ -420,7 +451,7 @@ body {
         margin-bottom: 27px;
         background-color: white;
         position: absolute;
-        left: 65px;
+        left: 60px;
         bottom: 15px;
       }
     }

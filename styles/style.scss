@@ -38,7 +38,14 @@ body {
   .subtitle {color: $textColor;}
   .description {color: $textColor;}
   .sm_title {color: $textColor;}
-  .back {color: $textColor;}
+  .back {
+    color: $textColor;
+    .head {
+      &::before {background-color: $textColor;}
+      &::after {background-color: $textColor;}
+    }
+    .arrow {background-color: $textColor;}
+  }
 }
 
 .body-wrapper {
@@ -49,7 +56,6 @@ body {
     width: 150px; height: 100%;
     position: absolute;
     z-index: 2;
-    // background-color: rgba(0,0,0,0.1);
   }
 
   .content {
@@ -445,7 +451,6 @@ body {
           width: 30px;
           height: 3px;
           transform: rotate(-30deg);
-          background-color: white;
           top: -7px;
           left: -2px;
         }
@@ -455,7 +460,6 @@ body {
           width: 30px;
           height: 3px;
           transform: rotate(30deg);
-          background-color: white;
           top: 7px;
           left: -2px;
         }
@@ -464,7 +468,6 @@ body {
         width: 300px;
         height: 3px;
         margin-bottom: 27px;
-        background-color: white;
         position: absolute;
         left: 60px;
         bottom: 15px;

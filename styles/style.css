@@ -418,6 +418,18 @@ body {
   color: white;
 }
 
+.body-wrapper .shoe.shoe_01.shoe_01_black .back .head::before {
+  background-color: white;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .back .head::after {
+  background-color: white;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_black .back .arrow {
+  background-color: white;
+}
+
 .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
   letter-spacing: -2px;
   font-size: 30rem;
@@ -445,6 +457,18 @@ body {
 
 .body-wrapper .shoe.shoe_01.shoe_01_white .back {
   color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .back .head::before {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .back .head::after {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_white .back .arrow {
+  background-color: #232323;
 }
 
 .body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
@@ -476,6 +500,18 @@ body {
   color: #232323;
 }
 
+.body-wrapper .shoe.shoe_01.shoe_01_pink .back .head::before {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .back .head::after {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_01.shoe_01_pink .back .arrow {
+  background-color: #232323;
+}
+
 .body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
   letter-spacing: -2px;
   font-size: 30rem;
@@ -503,6 +539,18 @@ body {
 
 .body-wrapper .shoe.shoe_02.shoe_02_black .back {
   color: white;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_black .back .head::before {
+  background-color: white;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_black .back .head::after {
+  background-color: white;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_black .back .arrow {
+  background-color: white;
 }
 
 .body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
@@ -534,6 +582,18 @@ body {
   color: #232323;
 }
 
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .back .head::before {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .back .head::after {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_yellow .back .arrow {
+  background-color: #232323;
+}
+
 .body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
   letter-spacing: -5px;
   font-size: 30rem;
@@ -561,6 +621,18 @@ body {
 
 .body-wrapper .shoe.shoe_02.shoe_02_pink .back {
   color: #232323;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_pink .back .head::before {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_pink .back .head::after {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_02.shoe_02_pink .back .arrow {
+  background-color: #232323;
 }
 
 .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
@@ -592,6 +664,18 @@ body {
   color: white;
 }
 
+.body-wrapper .shoe.shoe_03.shoe_03_black .back .head::before {
+  background-color: white;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .back .head::after {
+  background-color: white;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .back .arrow {
+  background-color: white;
+}
+
 .body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
   letter-spacing: -5px;
   font-size: 30rem;
@@ -619,6 +703,18 @@ body {
 
 .body-wrapper .shoe.shoe_03.shoe_03_white .back {
   color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .back .head::before {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .back .head::after {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .back .arrow {
+  background-color: #232323;
 }
 
 .body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
@@ -649,6 +745,18 @@ body {
 
 .body-wrapper .shoe.shoe_03.shoe_03_blue .back {
   color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .back .head::before {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .back .head::after {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .back .arrow {
+  background-color: #232323;
 }
 
 .body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
@@ -841,7 +949,6 @@ body {
   height: 3px;
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
-  background-color: white;
   top: -7px;
   left: -2px;
 }
@@ -853,7 +960,6 @@ body {
   height: 3px;
   -webkit-transform: rotate(30deg);
           transform: rotate(30deg);
-  background-color: white;
   top: 7px;
   left: -2px;
 }
@@ -862,7 +968,6 @@ body {
   width: 300px;
   height: 3px;
   margin-bottom: 27px;
-  background-color: white;
   position: absolute;
   left: 60px;
   bottom: 15px;

@@ -1,6 +1,8 @@
 var loadingPage = new TimelineMax({paused: true});
+
 var menuEnters = new TimelineMax({paused: true});
 var menuLeaves = new TimelineMax({paused: true});
+
 var shoeO1BlackEnters = new TimelineMax({paused: true});
 var shoeO1WhiteEnters = new TimelineMax({paused: true});
 var shoeO1PinkEnters = new TimelineMax({paused: true});
@@ -22,9 +24,12 @@ var shoeO3BlueLeaves = new TimelineMax({paused: true});
 
 loadingPage.to('.loading', 0.5, {scale: 100, autoAlpha: 0});
 
+menuEnters
+.to('.menu', 1, {display: 'block'})
+
 function start() {
   loadingPage.play();
-
+  menuEnters.play();
   console.log('runs');
 }
 

@@ -20,11 +20,11 @@ var shoeO3BlackLeaves = new TimelineMax({paused: true});
 var shoeO3WhiteLeaves = new TimelineMax({paused: true});
 var shoeO3BlueLeaves = new TimelineMax({paused: true});
 
-loadingPage
-.to('.loading', 0.5, {scale: 100, autoAlpha: 0})
+loadingPage.to('.loading', 0.5, {scale: 100, autoAlpha: 0});
 
 function start() {
-  // loadingPage.play();
+  loadingPage.play();
+
   console.log('runs');
 }
 

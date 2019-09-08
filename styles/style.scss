@@ -87,6 +87,7 @@ body {
 
   .loading {
     background-color: #f0f0f0;
+    z-index: 100;
     .lds-ripple {
       width: 64px; height: 64px;
       position: absolute;

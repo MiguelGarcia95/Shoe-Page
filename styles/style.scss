@@ -322,7 +322,7 @@ body {
         @include contentSetting(30rem, -5px);
       }
       &.shoe_03_blue {
-        display: block;
+        // display: block;
         @include contentColor(#83bece, #42a9c586, #232323);
         @include contentSetting(30rem, -5px);
       }

@@ -24,13 +24,21 @@ var shoeO3BlueLeaves = new TimelineMax({paused: true});
 
 loadingPage.to('.loading', 0.5, {scale: 100, autoAlpha: 0});
 
-menuEnters
-.to('.menu', 1, {display: 'block'})
+menuEnters.fromTo('.menu', 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1});
+menuLeaves.to('.menu', 2,  {scale: 10, autoAlpha: 1, transformOrigin: 'center center'});
 
 function start() {
   loadingPage.play();
   menuEnters.play();
   console.log('runs');
+  setTimeout(function() {
+    onShoeClick();
+  }, 1000)
+}
+
+function onShoeClick (className) {
+  menuLeaves.play();
+  //play shoeColorEnter
 }
 
 window.onload = start();

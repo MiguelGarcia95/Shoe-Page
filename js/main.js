@@ -75,13 +75,12 @@ goToMenu('.shoe_03_blue');
 
 function onShoeClick (tl, className) {
   menuLeaves.play();
-  //play shoeColorEnter
   animateEnter(tl, className);
 }
 
 function onBackClick(tl, className) {
   animateExit(tl, className);
-  // menuEnter
+  menuEnters.restart();
 }
 
 window.onload = start();

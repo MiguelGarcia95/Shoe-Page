@@ -27,8 +27,8 @@ loadingPage.to('.loading', 0.5, {scale: 100, autoAlpha: 0});
 menuEnters.fromTo('.menu', 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1, ease: Elastic.easeInOut.config(1, 0.3)});
 menuLeaves.to('.menu', 2,  {scale: 10, autoAlpha: 1, transformOrigin: 'center center', ease: Elastic.easeInOut.config(1, 0.3)});
 
-shoeO1BlackEnters
-.fromTo('.shoe_01_black', 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1, ease: Elastic.easeInOut.config(1, 0.3)})
+// shoeO1BlackEnters
+// .fromTo('.shoe_01_black', 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1, ease: Elastic.easeInOut.config(1, 0.3)})
 
 function start() {
   loadingPage.play();
@@ -39,10 +39,18 @@ function start() {
   }, 1000)
 }
 
+function animateEnter(tl, className) {
+  tl
+  .fromTo(className, 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1, ease: Elastic.easeInOut.config(1, 0.3)})
+
+  tl.play();
+}
+
 function onShoeClick (className) {
   menuLeaves.play();
   //play shoeColorEnter
-  shoeO1BlackEnters.play();
+  // shoeO1BlackEnters.play();
+  animateEnter(shoeO1BlackEnters, '.shoe_01_black');
 }
 
 window.onload = start();

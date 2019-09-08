@@ -72,17 +72,6 @@ goToMenu('.shoe_01_black');
 goToMenu('.shoe_02_yellow');
 goToMenu('.shoe_03_blue');
 
-// document.querySelector('.shoe_01_black .back').addEventListener('click', function() {
-//   onBackClick(shoeO1BlackEnters, '.shoe_01_black')
-// })
-// document.querySelector('.shoe_02_yellow .back').addEventListener('click', function() {
-//   onBackClick(shoeO1BlackEnters, '.shoe_02_yellow')
-// })
-// document.querySelector('.shoe_03_blue .back').addEventListener('click', function() {
-//   onBackClick(shoeO1BlackEnters, '.shoe_03_blue')
-// })
-
-
 
 function onShoeClick (tl, className) {
   menuLeaves.play();

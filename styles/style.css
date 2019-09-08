@@ -15,6 +15,40 @@ body {
   height: 100vh;
 }
 
+@-webkit-keyframes lds-ripple {
+  0% {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 58px;
+    height: 58px;
+    opacity: 0;
+  }
+}
+
+@keyframes lds-ripple {
+  0% {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 58px;
+    height: 58px;
+    opacity: 0;
+  }
+}
+
 .body-wrapper {
   width: 100vw;
   height: 100vh;
@@ -40,21 +74,32 @@ body {
 }
 
 .body-wrapper .loading {
-  background-color: #d1d1d1;
+  background-color: #f0f0f0;
 }
 
-.body-wrapper .loading .spinner {
-  width: 100px;
-  height: 100px;
+.body-wrapper .loading .lds-ripple {
+  width: 64px;
+  height: 64px;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
   margin: auto;
+}
+
+.body-wrapper .loading .lds-ripple div {
+  position: absolute;
+  border: 4px solid #222222;
+  opacity: 1;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.body-wrapper .loading .lds-ripple div:nth-child(2) {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
 }
 
 .body-wrapper .menu {

@@ -146,22 +146,21 @@ body {
           border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
           transform: rotate(-1deg);
           width: 200px; height: 10px;
-          left: 25px;
           position: absolute;
+          left: 25px;
           bottom: -25px;
         }
         &:first-of-type {
           left: 0;
-          @include Item(#9f98e0);
+          @include Item(#d1d1d1);
         }
         &:last-of-type {
           right: 0;
-          @include Item(#bb93b1);
-
+          @include Item(#83bece);
         }
         &:nth-of-type(2) {
           left: 0; right: 0; margin: auto;
-          @include Item(#e48383);
+          @include Item(#cda41d);
         }
         &:hover {
           .item-part {
@@ -266,7 +265,6 @@ body {
           z-index: 2;
           width: 150px;
           p {
-            // font-size: 0.9rem;
             letter-spacing: 2px;
             text-transform: uppercase;
             margin: 0;

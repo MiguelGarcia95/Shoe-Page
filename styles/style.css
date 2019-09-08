@@ -217,8 +217,8 @@ body {
           transform: rotate(-1deg);
   width: 200px;
   height: 10px;
-  left: 25px;
   position: absolute;
+  left: 25px;
   bottom: -25px;
 }
 
@@ -227,11 +227,11 @@ body {
 }
 
 .body-wrapper .menu .items .item:first-of-type .item-part .item-top-01 {
-  border-top: 180px solid #9f98e0;
+  border-top: 180px solid #d1d1d1;
 }
 
 .body-wrapper .menu .items .item:first-of-type .item-part .item-top-01::after {
-  background-color: #9f98e0;
+  background-color: #d1d1d1;
 }
 
 .body-wrapper .menu .items .item:last-of-type {
@@ -239,11 +239,11 @@ body {
 }
 
 .body-wrapper .menu .items .item:last-of-type .item-part .item-top-01 {
-  border-top: 180px solid #bb93b1;
+  border-top: 180px solid #83bece;
 }
 
 .body-wrapper .menu .items .item:last-of-type .item-part .item-top-01::after {
-  background-color: #bb93b1;
+  background-color: #83bece;
 }
 
 .body-wrapper .menu .items .item:nth-of-type(2) {
@@ -253,11 +253,11 @@ body {
 }
 
 .body-wrapper .menu .items .item:nth-of-type(2) .item-part .item-top-01 {
-  border-top: 180px solid #e48383;
+  border-top: 180px solid #cda41d;
 }
 
 .body-wrapper .menu .items .item:nth-of-type(2) .item-part .item-top-01::after {
-  background-color: #e48383;
+  background-color: #cda41d;
 }
 
 .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {

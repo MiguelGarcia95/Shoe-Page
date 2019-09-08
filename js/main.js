@@ -27,6 +27,9 @@ loadingPage.to('.loading', 0.5, {scale: 100, autoAlpha: 0});
 menuEnters.fromTo('.menu', 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1});
 menuLeaves.to('.menu', 2,  {scale: 10, autoAlpha: 1, transformOrigin: 'center center'});
 
+shoeO1BlackEnters
+.fromTo('.shoe_01_black', 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1})
+
 function start() {
   loadingPage.play();
   menuEnters.play();
@@ -39,6 +42,7 @@ function start() {
 function onShoeClick (className) {
   menuLeaves.play();
   //play shoeColorEnter
+  shoeO1BlackEnters.play();
 }
 
 window.onload = start();

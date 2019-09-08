@@ -1,4 +1,4 @@
-var loadingPage = new TimelineMax();
+var loadingPage = new TimelineMax({infinite: true});
 var menuEnters = new TimelineMax({paused: true});
 var menuLeaves = new TimelineMax({paused: true});
 var shoeO1BlackEnters = new TimelineMax({paused: true});
@@ -20,9 +20,17 @@ var shoeO3BlackLeaves = new TimelineMax({paused: true});
 var shoeO3WhiteLeaves = new TimelineMax({paused: true});
 var shoeO3BlueLeaves = new TimelineMax({paused: true});
 
+loadingPage
+.to('.spinner', 0.25, { boxShadow: '0px 5px 5px 0 rgba(0,0,0,0.1)'})
+.to('.spinner', 0.25, { boxShadow: '-5px 5px 5px 0 rgba(0,0,0,0.1)'})
+.to('.spinner', 0.25, { boxShadow: '-5px -5px 5px 0 rgba(0,0,0,0.1)'})
+.to('.spinner', 0.25, { boxShadow: '0px -5px 5px 0 rgba(0,0,0,0.1)'})
+.to('.spinner', 0.25, { boxShadow: '5px -5px 5px 0 rgba(0,0,0,0.1)'})
+.to('.spinner', 0.25, { boxShadow: '5px 0px 5px 0 rgba(0,0,0,0.1)'})
+.to('.spinner', 0.25, { boxShadow: '5px 5px 5px 0 rgba(0,0,0,0.1)'})
 
 function start() {
-  loadingPage.pause();
+  // loadingPage.pause();
   console.log('runs');
 }
 

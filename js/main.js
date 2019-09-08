@@ -44,14 +44,28 @@ function animateEnter(tl, className) {
   tl.play();
 }
 
+function animateExit(tl, className) {
+  tl.fromTo(className, 1, {scale: 1, autoAlpha: 1}, {display: 'none', autoAlpha: 0, scale: 10, ease: Elastic.easeInOut.config(1, 0.3)});
+  tl.play();
+}
+
 document.getElementById('shoe_01_black').addEventListener('click', function() {
   onShoeClick(shoeO1BlackEnters, '.shoe_01_black')
+})
+
+document.querySelector('.shoe_01_black .back').addEventListener('click', function() {
+  onBackClick(shoeO1BlackEnters, '.shoe_01_black')
 })
 
 function onShoeClick (tl, className) {
   menuLeaves.play();
   //play shoeColorEnter
   animateEnter(tl, className);
+}
+
+function onBackClick(tl, className) {
+  animateExit(tl, className);
+  // menuEnter
 }
 
 window.onload = start();

@@ -34,23 +34,24 @@ function start() {
   loadingPage.play();
   menuEnters.play();
   console.log('runs');
-  setTimeout(function() {
-    onShoeClick();
-  }, 1000)
+  // setTimeout(function() {
+  //   onShoeClick();
+  // }, 1000)
 }
 
 function animateEnter(tl, className) {
-  tl
-  .fromTo(className, 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1, ease: Elastic.easeInOut.config(1, 0.3)})
-
+  tl.fromTo(className, 1, {scale: 0, autoAlpha: 0}, {display: 'block', autoAlpha: 1, scale: 1, ease: Elastic.easeInOut.config(1, 0.3)})
   tl.play();
 }
 
-function onShoeClick (className) {
+document.getElementById('shoe_01_black').addEventListener('click', function() {
+  onShoeClick(shoeO1BlackEnters, '.shoe_01_black')
+})
+
+function onShoeClick (tl, className) {
   menuLeaves.play();
   //play shoeColorEnter
-  // shoeO1BlackEnters.play();
-  animateEnter(shoeO1BlackEnters, '.shoe_01_black');
+  animateEnter(tl, className);
 }
 
 window.onload = start();

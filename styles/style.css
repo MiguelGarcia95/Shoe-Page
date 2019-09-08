@@ -482,7 +482,6 @@ body {
 }
 
 .body-wrapper .shoe.shoe_02.shoe_02_black {
-  display: block;
   background-color: #232323;
 }
 
@@ -545,7 +544,7 @@ body {
 }
 
 .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
-  color: #dababcab;
+  color: #e268729d;
 }
 
 .body-wrapper .shoe.shoe_02.shoe_02_pink .subtitle {
@@ -565,6 +564,94 @@ body {
 }
 
 .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+  letter-spacing: -5px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black {
+  background-color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .subtitle {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .description {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .sm_title {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .back {
+  color: white;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
+  letter-spacing: -5px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white {
+  background-color: #d1d1d1;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .subtitle {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .description {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .sm_title {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .back {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
+  letter-spacing: -5px;
+  font-size: 30rem;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue {
+  display: block;
+  background-color: #83bece;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
+  color: #42a9c586;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .subtitle {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .description {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .sm_title {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .back {
+  color: #232323;
+}
+
+.body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
   letter-spacing: -5px;
   font-size: 30rem;
 }

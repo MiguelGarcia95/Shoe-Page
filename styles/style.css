@@ -165,7 +165,7 @@ body {
   color: #f0f0f0;
   position: absolute;
   top: 0;
-  bottom: 600px;
+  bottom: 500px;
   left: 0;
   right: 0;
   text-align: center;
@@ -782,16 +782,6 @@ body {
   max-width: 650px;
 }
 
-.body-wrapper .shoe .display .shoe-shadow {
-  bottom: 100px;
-  bottom: 150px;
-  width: 40%;
-  height: 0px;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.5), 0px 0px 100px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.5), 0px 0px 100px 10px rgba(0, 0, 0, 0.5);
-}
-
 .body-wrapper .shoe .display .subtitle {
   height: 500px;
   width: 1000px;
@@ -964,6 +954,65 @@ body {
   position: absolute;
   left: 60px;
   bottom: 15px;
+}
+
+@media (max-width: 1350px) {
+  .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
+    letter-spacing: -2px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
+    letter-spacing: -2px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
+    letter-spacing: -2px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
+    letter-spacing: -10px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+    letter-spacing: -10px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
+    letter-spacing: -5px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
+    letter-spacing: -5px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
+    letter-spacing: -5px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe .display img {
+    width: 40%;
+  }
+  .body-wrapper .shoe .display .subtitle {
+    height: 400px;
+    width: 800px;
+  }
+  .body-wrapper .shoe .display .subtitle .subtitle_01 {
+    top: -60px;
+    left: -100px;
+  }
+  .body-wrapper .shoe .display .subtitle .subtitle_02 {
+    bottom: -40px;
+    right: -100px;
+  }
+  .body-wrapper .shoe .title h1 {
+    line-height: 400px;
+    height: 400px;
+    width: 800px;
+  }
 }
 
 @media (max-width: 1250px) {

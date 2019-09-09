@@ -521,6 +521,10 @@ body {
           width: 800px;
         }
       }
+      .sm_title {
+        line-height: 50px;
+        height: 50px;
+      }
       .back {
         height: 50px;
         p {line-height: 50px; height: 50px;}
@@ -578,48 +582,48 @@ body {
       &.shoe_01 {
         &.shoe_01_black {
           // @include contentColor(#232323, rgba(0,0,0,0.2), white);
-          @include contentSetting(25rem, -2px);
+          @include contentSetting(20rem, -10px);
         }
         &.shoe_01_white {
           // @include contentColor(#d1d1d1, rgba(255, 255, 255, 0.3), #232323);
-          @include contentSetting(25rem, -2px);
+          @include contentSetting(20rem, -10px);
         }
         &.shoe_01_pink {
           // @include contentColor(#da9fb6, rgba(226, 171, 205, 0.4), #232323);
-          @include contentSetting(25rem, -2px);
+          @include contentSetting(20rem, -10px);
         }
       }
       &.shoe_02 {
         &.shoe_02_black {
           // @include contentColor(#232323, rgba(0,0,0,0.2), white);
-          @include contentSetting(25rem, -10px);
+          @include contentSetting(20rem, -10px);
         }
         &.shoe_02_yellow {
           // display: block;
           // @include contentColor(#cda41d, rgba(241, 210, 70, 0.418), #232323);
-          @include contentSetting(25rem, -10px);
+          @include contentSetting(20rem, -10px);
         }
         &.shoe_02_pink {
           // display: block;
           // @include contentColor(#da9fb6, #e268729d, #232323);
-          @include contentSetting(25rem, -10px);
+          @include contentSetting(20rem, -10px);
         }
       }
       &.shoe_03 {
         &.shoe_03_black {
           // display: block;
           // @include contentColor(#232323, rgba(0,0,0,0.2), white);
-          @include contentSetting(25rem, -5px);
+          @include contentSetting(20rem, -10px);
         }
         &.shoe_03_white {
           // display: block;
           // @include contentColor(#d1d1d1, rgba(255, 255, 255, 0.3), #232323);
-          @include contentSetting(25rem, -5px);
+          @include contentSetting(20rem, -10px);
         }
         &.shoe_03_blue {
           // display: block;
           // @include contentColor(#83bece, #42a9c586, #232323);
-          @include contentSetting(25rem, -5px);
+          @include contentSetting(20rem, -10px);
         }
       }
   
@@ -642,21 +646,21 @@ body {
         }
         .subtitle {
           height: 400px; 
-          width: 800px;
+          width: 650px;
           p {
             // font-family: 'Fjalla One';
             // font-weight: 800;
             // font-size: 4rem;
             // position: absolute;
           }
-          .subtitle_01 {top: -60px; left: -100px;}
-          .subtitle_02 {bottom: -40px; right: -100px;}
+          .subtitle_01 {top: -25px; left: -80px;}
+          .subtitle_02 {bottom: -5px; right: -80px;}
           .description {
-            // font-size: 1.1rem;
+            font-size: 1rem;
             // font-weight: 300;
-            // width: 500px;
-            // bottom: -30px;
-            // left: -120px;
+            width: 400px;
+            bottom: -5px;
+            left: -80px;
           }
         }
       }
@@ -665,13 +669,13 @@ body {
         h1 {
           line-height: 400px;
           height: 400px;
-          width: 800px;
+          width: 650px;
         }
       }
       .sm_title {
         // font-size: 1.5rem;
-        // line-height: 80px;
-        // height: 80px;
+        // line-height: 50px;
+        // height: 50px;
       }
       .colors {
         // width: 50px;
@@ -685,18 +689,18 @@ body {
       }
       .back {
         // left: 50px; 
-        height: 50px;
-        // width: 360px;
+        // height: 50px;
+        width: 280px;
         p {
           // font-size: 1.5rem;
-          line-height: 50px;
-          height: 50px;
+          // line-height: 50px;
+          // height: 50px;
           // width: 60px;
         }
         .head {
           // height: 30px;
           // left: 60px;
-          bottom: 00px;
+          // bottom: 00px;
           &::before {
             // width: 30px;
             // height: 3px;
@@ -713,11 +717,11 @@ body {
           }
         }
         .arrow {
-          // width: 300px;
+          width: 220px;
           // height: 3px;
-          margin-bottom: 17px;
+          // margin-bottom: 17px;
           // left: 60px;
-          bottom: 10px;
+          // bottom: 10px;
         }
       }
     }

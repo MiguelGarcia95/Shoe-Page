@@ -1144,44 +1144,52 @@ body {
 
 @media (max-width: 1050px) {
   .body-wrapper .menu .title {
-    bottom: 440px;
-    height: 100px;
-    width: 100%;
+    bottom: 380px;
+    height: 80px;
   }
   .body-wrapper .menu .title p {
-    line-height: 100px;
-    font-size: 6rem;
+    line-height: 80px;
+    font-size: 5rem;
   }
   .body-wrapper .menu .items {
-    width: 950px;
-    height: 450px;
-    bottom: 40px;
+    width: 800px;
+    height: 380px;
   }
   .body-wrapper .menu .items .item {
-    width: 220px;
-    height: 450px;
-  }
-  .body-wrapper .menu .items .item .item-shadow {
-    width: 170px;
+    height: 380px;
   }
   .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
-    height: 200px;
-    width: 220px;
+    height: 180px;
+    bottom: 130px;
+  }
+  .body-wrapper .menu .items .item:hover .item-image img {
+    bottom: 50px;
   }
   .body-wrapper .menu .items .item .item-top {
-    height: 420px;
+    height: 370px;
+    bottom: 20px;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01 {
+    right: -130px;
+    border-top: 150px solid transparent;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01::after {
+    width: 150px;
+    height: 150px;
   }
   .body-wrapper .menu .items .item .item-bottom {
-    height: 250px;
+    height: 200px;
   }
   .body-wrapper .menu .items .item .item-image {
-    bottom: 230px;
+    bottom: 200px;
   }
   .body-wrapper .menu .items .item .item-category {
-    bottom: 180px;
+    bottom: 150px;
   }
   .body-wrapper .menu .items .item .item-name {
-    top: 340px;
+    top: 320px;
   }
   .body-wrapper .menu .items .item .item-name p {
     font-size: 0.9em;
@@ -1256,6 +1264,60 @@ body {
   }
   .body-wrapper .shoe .back .arrow {
     width: 220px;
+  }
+}
+
+@media (max-width: 850px) {
+  .body-wrapper .menu .title {
+    bottom: 380px;
+    height: 80px;
+  }
+  .body-wrapper .menu .title p {
+    line-height: 80px;
+    font-size: 5rem;
+  }
+  .body-wrapper .menu .items {
+    width: 800px;
+    height: 380px;
+  }
+  .body-wrapper .menu .items .item {
+    height: 380px;
+  }
+  .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
+    height: 180px;
+    bottom: 130px;
+  }
+  .body-wrapper .menu .items .item:hover .item-image img {
+    bottom: 50px;
+  }
+  .body-wrapper .menu .items .item .item-top {
+    height: 370px;
+    bottom: 20px;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01 {
+    right: -130px;
+    border-top: 150px solid transparent;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01::after {
+    width: 150px;
+    height: 150px;
+  }
+  .body-wrapper .menu .items .item .item-bottom {
+    height: 200px;
+  }
+  .body-wrapper .menu .items .item .item-image {
+    bottom: 200px;
+  }
+  .body-wrapper .menu .items .item .item-category {
+    bottom: 150px;
+  }
+  .body-wrapper .menu .items .item .item-name {
+    top: 320px;
+  }
+  .body-wrapper .menu .items .item .item-name p {
+    font-size: 0.9em;
   }
 }
 /*# sourceMappingURL=style.css.map */

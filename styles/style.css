@@ -1030,4 +1030,28 @@ body {
   left: 60px;
   bottom: 15px;
 }
+
+@media (max-width: 1250px) {
+  .body-wrapper .menu .title {
+    bottom: 600px;
+    text-align: center;
+    height: 130px;
+    width: 500px;
+  }
+  .body-wrapper .menu .title p {
+    line-height: 130px;
+    font-size: 7rem;
+    font-weight: 800;
+    letter-spacing: -5px;
+  }
+  .body-wrapper .menu .items {
+    width: 1200px;
+    height: 600px;
+    bottom: 100px;
+  }
+  .body-wrapper .menu .items .item {
+    width: 250px;
+    height: 600px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

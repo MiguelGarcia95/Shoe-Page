@@ -993,25 +993,34 @@ body {
     letter-spacing: -5px;
     font-size: 25rem;
   }
-  .body-wrapper .shoe .display img {
-    width: 40%;
-  }
   .body-wrapper .shoe .display .subtitle {
     height: 400px;
     width: 800px;
   }
   .body-wrapper .shoe .display .subtitle .subtitle_01 {
     top: -60px;
-    left: -100px;
   }
   .body-wrapper .shoe .display .subtitle .subtitle_02 {
     bottom: -40px;
-    right: -100px;
   }
   .body-wrapper .shoe .title h1 {
     line-height: 400px;
     height: 400px;
     width: 800px;
+  }
+  .body-wrapper .shoe .back {
+    height: 50px;
+  }
+  .body-wrapper .shoe .back p {
+    line-height: 50px;
+    height: 50px;
+  }
+  .body-wrapper .shoe .back .head {
+    bottom: 00px;
+  }
+  .body-wrapper .shoe .back .arrow {
+    margin-bottom: 17px;
+    bottom: 10px;
   }
 }
 
@@ -1058,6 +1067,79 @@ body {
   }
   .body-wrapper .menu .items .item .item-name p {
     font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1150px) {
+  .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
+    letter-spacing: -2px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
+    letter-spacing: -2px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
+    letter-spacing: -2px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
+    letter-spacing: -10px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+    letter-spacing: -10px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
+    letter-spacing: -5px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
+    letter-spacing: -5px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
+    letter-spacing: -5px;
+    font-size: 25rem;
+  }
+  .body-wrapper .shoe .display img {
+    width: 40%;
+  }
+  .body-wrapper .shoe .display .subtitle {
+    height: 400px;
+    width: 800px;
+  }
+  .body-wrapper .shoe .display .subtitle .subtitle_01 {
+    top: -60px;
+    left: -100px;
+  }
+  .body-wrapper .shoe .display .subtitle .subtitle_02 {
+    bottom: -40px;
+    right: -100px;
+  }
+  .body-wrapper .shoe .title h1 {
+    line-height: 400px;
+    height: 400px;
+    width: 800px;
+  }
+  .body-wrapper .shoe .back {
+    height: 50px;
+  }
+  .body-wrapper .shoe .back p {
+    line-height: 50px;
+    height: 50px;
+  }
+  .body-wrapper .shoe .back .head {
+    bottom: 00px;
+  }
+  .body-wrapper .shoe .back .arrow {
+    margin-bottom: 17px;
+    bottom: 10px;
   }
 }
 

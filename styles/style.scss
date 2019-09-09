@@ -71,11 +71,6 @@ body {
   width: 100vw; height: 100vh;
   max-width: 100%;
   position: relative;
-  .header {
-    width: 150px; height: 100%;
-    position: absolute;
-    z-index: 2;
-  }
 
   .content {
     width: 100vw; height: 100vh;
@@ -513,4 +508,8 @@ body {
       }
     }
   }
+}
+
+@media(max-width: 1250px) {
+
 }

@@ -56,13 +56,6 @@ body {
   position: relative;
 }
 
-.body-wrapper .header {
-  width: 150px;
-  height: 100%;
-  position: absolute;
-  z-index: 2;
-}
-
 .body-wrapper .content {
   width: 100vw;
   height: 100vh;

@@ -1277,55 +1277,119 @@ body {
 
 @media (max-width: 850px) {
   .body-wrapper .menu .title {
-    bottom: 380px;
+    top: 50px;
+    bottom: unset;
     height: 80px;
   }
   .body-wrapper .menu .title p {
     line-height: 80px;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .body-wrapper .menu .items {
-    width: 800px;
-    height: 380px;
+    width: 650px;
+    height: 350px;
   }
   .body-wrapper .menu .items .item {
-    height: 380px;
+    height: 350px;
+    width: 180px;
+  }
+  .body-wrapper .menu .items .item .item-shadow {
+    width: 130px;
   }
   .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
-    height: 180px;
-    bottom: 130px;
+    height: 150px;
+    width: 180px;
+    bottom: 110px;
   }
   .body-wrapper .menu .items .item:hover .item-image img {
     bottom: 50px;
   }
   .body-wrapper .menu .items .item .item-top {
-    height: 370px;
-    bottom: 20px;
+    height: 350px;
   }
   .body-wrapper .menu .items .item .item-top .item-top-01 {
-    right: -130px;
-    border-top: 150px solid transparent;
-    border-left: 130px solid transparent;
-    border-right: 130px solid transparent;
+    border-top: 120px solid transparent;
   }
   .body-wrapper .menu .items .item .item-top .item-top-01::after {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 120px;
   }
   .body-wrapper .menu .items .item .item-bottom {
-    height: 200px;
+    height: 170px;
   }
   .body-wrapper .menu .items .item .item-image {
-    bottom: 200px;
+    bottom: 180px;
   }
   .body-wrapper .menu .items .item .item-category {
-    bottom: 150px;
+    bottom: 130px;
+  }
+  .body-wrapper .menu .items .item .item-category p {
+    font-size: 0.6rem;
   }
   .body-wrapper .menu .items .item .item-name {
-    top: 250px;
+    width: 130px;
   }
   .body-wrapper .menu .items .item .item-name p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 700px) {
+  .body-wrapper .menu .title {
+    top: 50px;
+    bottom: unset;
+    height: 80px;
+  }
+  .body-wrapper .menu .title p {
+    line-height: 80px;
+    font-size: 4rem;
+  }
+  .body-wrapper .menu .items {
+    width: 650px;
+    height: 350px;
+  }
+  .body-wrapper .menu .items .item {
+    height: 350px;
+    width: 180px;
+  }
+  .body-wrapper .menu .items .item .item-shadow {
+    width: 130px;
+  }
+  .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
+    height: 150px;
+    width: 180px;
+    bottom: 110px;
+  }
+  .body-wrapper .menu .items .item:hover .item-image img {
+    bottom: 50px;
+  }
+  .body-wrapper .menu .items .item .item-top {
+    height: 350px;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01 {
+    border-top: 120px solid transparent;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01::after {
+    width: 180px;
+    height: 120px;
+  }
+  .body-wrapper .menu .items .item .item-bottom {
+    height: 170px;
+  }
+  .body-wrapper .menu .items .item .item-image {
+    bottom: 180px;
+  }
+  .body-wrapper .menu .items .item .item-category {
+    bottom: 130px;
+  }
+  .body-wrapper .menu .items .item .item-category p {
+    font-size: 0.6rem;
+  }
+  .body-wrapper .menu .items .item .item-name {
+    width: 130px;
+  }
+  .body-wrapper .menu .items .item .item-name p {
+    font-size: 0.8em;
   }
 }
 

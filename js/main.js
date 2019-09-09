@@ -14,10 +14,6 @@ menuLeaves.fromTo('.menu', 2, {scale: 1}, {scale: 10, autoAlpha: 1, transformOri
 function start() {
   loadingPage.play();
   menuEnters.play();
-  console.log('runs');
-  // setTimeout(function() {
-  //   onShoeClick();
-  // }, 1000)
 }
 
 function animateEnter(tl, className) {
@@ -31,11 +27,19 @@ function animateExit(tl, className) {
 }
 
 //Change Color
-function goToShoeColor(idName, color) {
-  document.getElementById(`${idName} ${color}`).addEventListener('click', function() {
-    onColorClick(shoeEnters, `.${idName}`)
+function goToShoeColor(idName, idName2, color) {
+  document.querySelector(`.${idName} .${color}`).addEventListener('click', function() {
+    onColorClick(shoeEnters, `.${idName2}_${color}`, `.${idName2}`)
   })
 }
+
+// Colors For Shoe 01
+goToShoeColor('shoe_01_black', 'shoe_01', 'white');
+goToShoeColor('shoe_01_black', 'shoe_01', 'pink');
+goToShoeColor('shoe_01_white', 'shoe_01', 'pink');
+goToShoeColor('shoe_01_white', 'shoe_01', 'black');
+goToShoeColor('shoe_01_pink', 'shoe_01', 'black');
+goToShoeColor('shoe_01_pink', 'shoe_01', 'white');
 
 // Go To Shoe from menu
 function goToShoe(idName) {
@@ -56,6 +60,8 @@ function goToMenu(className) {
 }
 
 goToMenu('.shoe_01_black');
+goToMenu('.shoe_01_white');
+goToMenu('.shoe_01_pink');
 goToMenu('.shoe_02_yellow');
 goToMenu('.shoe_03_blue');
 
@@ -65,8 +71,8 @@ function onShoeClick (tl, className) {
   animateEnter(tl, className);
 }
 
-function onColorClick(tl, className, tl2, className2) {
-  animateExit(tl2, className2);
+function onColorClick(tl, className, className2) {
+  animateExit(shoeLeaves, className2);
   animateEnter(tl, className);
 }
 

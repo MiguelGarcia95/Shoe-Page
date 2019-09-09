@@ -1070,7 +1070,7 @@ body {
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1100px) {
   .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
     letter-spacing: -2px;
     font-size: 25rem;

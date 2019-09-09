@@ -1,8 +1,6 @@
 var loadingPage = new TimelineMax({paused: true});
-
 var menuEnters = new TimelineMax({paused: true});
 var menuLeaves = new TimelineMax({paused: true});
-
 var shoeEnters = new TimelineMax({paused: true});
 var shoeLeaves = new TimelineMax({paused: true});
 
@@ -26,7 +24,6 @@ function animateExit(tl, className) {
   tl.play();
 }
 
-//Change Color
 function goToShoeColor(idName, idName2, color) {
   document.querySelector(`.${idName} .${color}`).addEventListener('click', function() {
     onColorClick(shoeEnters, `.${idName2}_${color}`, `.${idName2}`)
@@ -57,7 +54,6 @@ goToShoeColor('shoe_03_blue', 'shoe_03', 'black');
 goToShoeColor('shoe_03_white', 'shoe_03', 'black');
 goToShoeColor('shoe_03_white', 'shoe_03', 'blue');
 
-
 // Go To Shoe from menu
 function goToShoe(idName) {
   document.getElementById(idName).addEventListener('click', function() {
@@ -69,7 +65,6 @@ goToShoe('shoe_01_black');
 goToShoe('shoe_02_yellow');
 goToShoe('shoe_03_blue');
 
-// Go Back to menu
 function goToMenu(className) {
   document.querySelector(`${className} .back`).addEventListener('click', function() {
     onBackClick(shoeEnters, `${className}`)
@@ -82,11 +77,9 @@ goToMenu('.shoe_01_pink');
 goToMenu('.shoe_02_yellow');
 goToMenu('.shoe_02_pink');
 goToMenu('.shoe_02_black');
-
 goToMenu('.shoe_03_blue');
 goToMenu('.shoe_03_black');
 goToMenu('.shoe_03_white');
-
 
 function onShoeClick (tl, className) {
   menuLeaves.play();

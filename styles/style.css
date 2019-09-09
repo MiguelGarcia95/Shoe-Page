@@ -1328,4 +1328,86 @@ body {
     font-size: 0.9em;
   }
 }
+
+@media (max-width: 650px) {
+  .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
+    letter-spacing: -10px;
+    font-size: 15rem;
+  }
+  .body-wrapper .shoe .display img {
+    bottom: unset;
+    top: 100px;
+    width: 40%;
+  }
+  .body-wrapper .shoe .display .subtitle {
+    bottom: unset;
+    top: 50px;
+    height: 300px;
+    width: 550px;
+  }
+  .body-wrapper .shoe .display .subtitle p {
+    font-size: 3rem;
+  }
+  .body-wrapper .shoe .display .subtitle .subtitle_01 {
+    top: -15px;
+    left: 0px;
+  }
+  .body-wrapper .shoe .display .subtitle .subtitle_02 {
+    bottom: 0px;
+    right: 0px;
+  }
+  .body-wrapper .shoe .display .subtitle .description {
+    font-size: 1rem;
+    width: 350px;
+    bottom: -45px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .body-wrapper .shoe .title h1 {
+    bottom: unset;
+    top: 55px;
+    line-height: 300px;
+    height: 300px;
+    width: 650px;
+  }
+  .body-wrapper .shoe .back {
+    width: 210px;
+  }
+  .body-wrapper .shoe .back .arrow {
+    width: 150px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -675,57 +675,26 @@ body {
   .body-wrapper {
     .shoe {
       &.shoe_01 {
-        &.shoe_01_black {
-          @include contentSetting(15rem, -10px);
-        }
-        &.shoe_01_white {
-          @include contentSetting(15rem, -10px);
-        }
-        &.shoe_01_pink {
-          @include contentSetting(15rem, -10px);
-        }
+        &.shoe_01_black {@include contentSetting(15rem, -10px);}
+        &.shoe_01_white {@include contentSetting(15rem, -10px);}
+        &.shoe_01_pink {@include contentSetting(15rem, -10px);}
       }
       &.shoe_02 {
-        &.shoe_02_black {
-          @include contentSetting(15rem, -10px);
-        }
-        &.shoe_02_yellow {
-          @include contentSetting(15rem, -10px);
-        }
-        &.shoe_02_pink {
-          @include contentSetting(15rem, -10px);
-        }
+        &.shoe_02_black {@include contentSetting(15rem, -10px);}
+        &.shoe_02_yellow {@include contentSetting(15rem, -10px);}
+        &.shoe_02_pink {@include contentSetting(15rem, -10px);}
       }
       &.shoe_03 {
-        &.shoe_03_black {
-          @include contentSetting(15rem, -10px);
-        }
-        &.shoe_03_white {
-          @include contentSetting(15rem, -10px);
-        }
-        &.shoe_03_blue {
-          @include contentSetting(15rem, -10px);
-        }
+        &.shoe_03_black {@include contentSetting(15rem, -10px);}
+        &.shoe_03_white {@include contentSetting(15rem, -10px);}
+        &.shoe_03_blue {@include contentSetting(15rem, -10px);}
       }
   
-      .display, .title{
-        // width: 100%; height: 100%;
-        // position: absolute;
-      }
       .display {
-        // z-index: 2;
-        img, .shoe-shadow, .subtitle  {
-          // position: absolute;
-          // left: 0px; right: 0;
-          // margin: auto;
-          // top: 0; bottom: 0; 
-        }
         img {
           bottom: unset;
           top: 100px;
           width: 40%;
-          // z-index: 2;
-          // max-width: 650px;
         }
         .subtitle {
           bottom: unset;
@@ -756,57 +725,10 @@ body {
           width: 650px;
         }
       }
-      .sm_title {
-        // font-size: 1.5rem;
-        // line-height: 50px;
-        // height: 50px;
-      }
-      .colors {
-        // width: 50px;
-        // height: 250px;
-        // z-index: 3;
-        .color {
-          // margin: 45px auto;
-          // width: 20px;
-          // height: 20px;
-        }
-      }
+
       .back {
-        // left: 50px; 
-        // height: 50px;
         width: 210px;
-        p {
-          // font-size: 1.5rem;
-          // line-height: 50px;
-          // height: 50px;
-          // width: 60px;
-        }
-        .head {
-          // height: 30px;
-          // left: 60px;
-          // bottom: 00px;
-          &::before {
-            // width: 30px;
-            // height: 3px;
-            // transform: rotate(-30deg);
-            // top: -7px;
-            // left: -2px;
-          }
-          &::after {
-            // width: 30px;
-            // height: 3px;
-            // transform: rotate(30deg);
-            // top: 7px;
-            // left: -2px;
-          }
-        }
-        .arrow {
-          width: 150px;
-          // height: 3px;
-          // margin-bottom: 17px;
-          // left: 60px;
-          // bottom: 10px;
-        }
+        .arrow {width: 150px;}
       }
     }
   }
@@ -973,6 +895,147 @@ body {
               // letter-spacing: 2px;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 650px) {
+  .body-wrapper {
+    .shoe {
+      &.shoe_01 {
+        &.shoe_01_black {
+          @include contentSetting(15rem, -10px);
+        }
+        &.shoe_01_white {
+          @include contentSetting(15rem, -10px);
+        }
+        &.shoe_01_pink {
+          @include contentSetting(15rem, -10px);
+        }
+      }
+      &.shoe_02 {
+        &.shoe_02_black {
+          @include contentSetting(15rem, -10px);
+        }
+        &.shoe_02_yellow {
+          @include contentSetting(15rem, -10px);
+        }
+        &.shoe_02_pink {
+          @include contentSetting(15rem, -10px);
+        }
+      }
+      &.shoe_03 {
+        &.shoe_03_black {
+          @include contentSetting(15rem, -10px);
+        }
+        &.shoe_03_white {
+          @include contentSetting(15rem, -10px);
+        }
+        &.shoe_03_blue {
+          @include contentSetting(15rem, -10px);
+        }
+      }
+  
+      .display, .title{
+        // width: 100%; height: 100%;
+        // position: absolute;
+      }
+      .display {
+        // z-index: 2;
+        img, .shoe-shadow, .subtitle  {
+          // position: absolute;
+          // left: 0px; right: 0;
+          // margin: auto;
+          // top: 0; bottom: 0; 
+        }
+        img {
+          bottom: unset;
+          top: 100px;
+          width: 40%;
+          // z-index: 2;
+          // max-width: 650px;
+        }
+        .subtitle {
+          bottom: unset;
+          top: 50px;
+
+          height: 300px; 
+          width: 550px;
+          p {
+            font-size: 3rem;
+          }
+          .subtitle_01 {top: -15px; left: 0px;}
+          .subtitle_02 {bottom: 0px; right: 0px;}
+          .description {
+            font-size: 1rem;
+            width: 350px;
+            bottom: -45px;
+            left: 0px; right: 0px;
+            margin: auto;
+          }
+        }
+      }
+      .title {
+        h1 {
+          bottom: unset;
+          top: 55px;
+          line-height: 300px;
+          height: 300px;
+          width: 650px;
+        }
+      }
+      .sm_title {
+        // font-size: 1.5rem;
+        // line-height: 50px;
+        // height: 50px;
+      }
+      .colors {
+        // width: 50px;
+        // height: 250px;
+        // z-index: 3;
+        .color {
+          // margin: 45px auto;
+          // width: 20px;
+          // height: 20px;
+        }
+      }
+      .back {
+        // left: 50px; 
+        // height: 50px;
+        width: 210px;
+        p {
+          // font-size: 1.5rem;
+          // line-height: 50px;
+          // height: 50px;
+          // width: 60px;
+        }
+        .head {
+          // height: 30px;
+          // left: 60px;
+          // bottom: 00px;
+          &::before {
+            // width: 30px;
+            // height: 3px;
+            // transform: rotate(-30deg);
+            // top: -7px;
+            // left: -2px;
+          }
+          &::after {
+            // width: 30px;
+            // height: 3px;
+            // transform: rotate(30deg);
+            // top: 7px;
+            // left: -2px;
+          }
+        }
+        .arrow {
+          width: 150px;
+          // height: 3px;
+          // margin-bottom: 17px;
+          // left: 60px;
+          // bottom: 10px;
         }
       }
     }

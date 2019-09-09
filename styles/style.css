@@ -1335,61 +1335,69 @@ body {
 }
 
 @media (max-width: 700px) {
-  .body-wrapper .menu .title {
-    top: 50px;
-    bottom: unset;
-    height: 80px;
-  }
-  .body-wrapper .menu .title p {
-    line-height: 80px;
-    font-size: 4rem;
-  }
   .body-wrapper .menu .items {
-    width: 650px;
-    height: 350px;
+    width: 100%;
+    height: 280px;
   }
   .body-wrapper .menu .items .item {
-    height: 350px;
-    width: 180px;
+    height: 280px;
+    width: 30%;
   }
   .body-wrapper .menu .items .item .item-shadow {
-    width: 130px;
+    width: 0;
+  }
+  .body-wrapper .menu .items .item:first-of-type {
+    left: 1.66%;
+  }
+  .body-wrapper .menu .items .item:last-of-type {
+    right: 1.66%;
+  }
+  .body-wrapper .menu .items .item:hover .item-part .item-top-01 {
+    width: 100%;
   }
   .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
-    height: 150px;
+    height: 130px;
     width: 180px;
+    width: 100%;
     bottom: 110px;
   }
-  .body-wrapper .menu .items .item:hover .item-image img {
-    bottom: 50px;
-  }
   .body-wrapper .menu .items .item .item-top {
-    height: 350px;
+    height: 260px;
   }
   .body-wrapper .menu .items .item .item-top .item-top-01 {
-    border-top: 120px solid transparent;
+    width: 100%;
+    border-top: 100% solid transparent;
+    border-left: 100% solid transparent;
+    border-right: 100% solid transparent;
   }
   .body-wrapper .menu .items .item .item-top .item-top-01::after {
-    width: 180px;
-    height: 120px;
+    width: 100%;
+    -webkit-transform: skewY(0);
+            transform: skewY(0);
   }
   .body-wrapper .menu .items .item .item-bottom {
-    height: 170px;
+    height: 150px;
   }
   .body-wrapper .menu .items .item .item-image {
+    height: 130px;
     bottom: 180px;
   }
+  .body-wrapper .menu .items .item .item-image .img-shadow {
+    top: -60px;
+  }
   .body-wrapper .menu .items .item .item-category {
-    bottom: 130px;
+    width: 100%;
+    text-align: center;
+    left: unset;
   }
   .body-wrapper .menu .items .item .item-category p {
     font-size: 0.6rem;
   }
   .body-wrapper .menu .items .item .item-name {
-    width: 130px;
-  }
-  .body-wrapper .menu .items .item .item-name p {
-    font-size: 0.8em;
+    top: 180px;
+    left: unset;
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -1472,6 +1480,80 @@ body {
   }
   .body-wrapper .shoe .back .arrow {
     width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .body-wrapper .menu .title {
+    height: 80px;
+  }
+  .body-wrapper .menu .title p {
+    line-height: 80px;
+    font-size: 4rem;
+  }
+  .body-wrapper .menu .items {
+    width: 100%;
+    height: 300px;
+  }
+  .body-wrapper .menu .items .item {
+    height: 280px;
+    width: 30%;
+  }
+  .body-wrapper .menu .items .item .item-shadow {
+    width: 0;
+  }
+  .body-wrapper .menu .items .item:first-of-type {
+    left: 1.66%;
+  }
+  .body-wrapper .menu .items .item:last-of-type {
+    right: 1.66%;
+  }
+  .body-wrapper .menu .items .item:hover .item-part .item-top-01 {
+    width: 100%;
+  }
+  .body-wrapper .menu .items .item:hover .item-part .item-top-01::after {
+    height: 130px;
+    width: 180px;
+    width: 100%;
+    bottom: 110px;
+  }
+  .body-wrapper .menu .items .item .item-top {
+    height: 260px;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01 {
+    width: 100%;
+    border-top: 100% solid transparent;
+    border-left: 100% solid transparent;
+    border-right: 100% solid transparent;
+  }
+  .body-wrapper .menu .items .item .item-top .item-top-01::after {
+    width: 100%;
+    -webkit-transform: skewY(0);
+            transform: skewY(0);
+  }
+  .body-wrapper .menu .items .item .item-bottom {
+    height: 150px;
+  }
+  .body-wrapper .menu .items .item .item-image {
+    height: 130px;
+    bottom: 180px;
+  }
+  .body-wrapper .menu .items .item .item-image .img-shadow {
+    top: -60px;
+  }
+  .body-wrapper .menu .items .item .item-category {
+    width: 100%;
+    text-align: center;
+    left: unset;
+  }
+  .body-wrapper .menu .items .item .item-category p {
+    font-size: 0.6rem;
+  }
+  .body-wrapper .menu .items .item .item-name {
+    top: 180px;
+    left: unset;
+    text-align: center;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

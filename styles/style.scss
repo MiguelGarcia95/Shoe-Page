@@ -736,20 +736,21 @@ body {
           p {
             font-size: 3rem;
           }
-          .subtitle_01 {top: -10px; left: 0px;}
-          .subtitle_02 {bottom: 20px; right: 0px;}
+          .subtitle_01 {top: -15px; left: 0px;}
+          .subtitle_02 {bottom: 0px; right: 0px;}
           .description {
             font-size: 1rem;
             width: 350px;
-            bottom: -10px;
-            left: -50px;
+            bottom: -45px;
+            left: 0px; right: 0px;
+            margin: auto;
           }
         }
       }
       .title {
         h1 {
           bottom: unset;
-          top: 50px;
+          top: 55px;
           line-height: 300px;
           height: 300px;
           width: 650px;

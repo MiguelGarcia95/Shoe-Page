@@ -1245,22 +1245,24 @@ body {
     font-size: 3rem;
   }
   .body-wrapper .shoe .display .subtitle .subtitle_01 {
-    top: -10px;
+    top: -15px;
     left: 0px;
   }
   .body-wrapper .shoe .display .subtitle .subtitle_02 {
-    bottom: 20px;
+    bottom: 0px;
     right: 0px;
   }
   .body-wrapper .shoe .display .subtitle .description {
     font-size: 1rem;
     width: 350px;
-    bottom: -10px;
-    left: -50px;
+    bottom: -45px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
   }
   .body-wrapper .shoe .title h1 {
     bottom: unset;
-    top: 50px;
+    top: 55px;
     line-height: 300px;
     height: 300px;
     width: 650px;

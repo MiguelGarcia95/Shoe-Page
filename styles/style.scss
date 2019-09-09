@@ -535,7 +535,7 @@ body {
   .body-wrapper {
     .menu {
       .title {
-        bottom: 500px;
+        bottom: 440px;
         height: 100px; 
         width: 100%;
         p {
@@ -545,11 +545,11 @@ body {
       }
       .items {
         width: 950px;
-        height: 500px;
-        bottom: 50px;
+        height: 450px;
+        bottom: 40px;
         .item {
           width: 220px; 
-          height: 500px;
+          height: 450px;
           .item-shadow { width: 170px; }
           &:hover {
             .item-part {
@@ -558,12 +558,12 @@ body {
               }
             }
           }
-          .item-top {height: 420px;}
+          .item-top {height: 410px;}
           .item-bottom {height: 250px;}
           .item-image {bottom: 230px;}
           .item-category {bottom: 180px;}
           .item-name {
-            top: 340px;
+            top: 290px;
             p {font-size: 0.9em;}
           }
         }
@@ -773,9 +773,8 @@ body {
       }
 
       .title {
-        // color: #f0f0f0;
         // top: 0; 
-        bottom: 500px;
+        bottom: 440px;
         // left: 0; right: 0;
         height: 100px; 
         width: 100%;
@@ -788,11 +787,11 @@ body {
       }
       .items {
         width: 950px;
-        height: 500px;
-        bottom: 50px;
+        height: 450px;
+        bottom: 40px;
         .item {
           width: 220px; 
-          height: 500px;
+          height: 450px;
           .item-shadow {
             width: 170px; 
             // height: 10px;

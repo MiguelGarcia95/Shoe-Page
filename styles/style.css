@@ -1026,7 +1026,7 @@ body {
 
 @media (max-width: 1250px) {
   .body-wrapper .menu .title {
-    bottom: 500px;
+    bottom: 440px;
     height: 100px;
     width: 100%;
   }
@@ -1036,12 +1036,12 @@ body {
   }
   .body-wrapper .menu .items {
     width: 950px;
-    height: 500px;
-    bottom: 50px;
+    height: 450px;
+    bottom: 40px;
   }
   .body-wrapper .menu .items .item {
     width: 220px;
-    height: 500px;
+    height: 450px;
   }
   .body-wrapper .menu .items .item .item-shadow {
     width: 170px;
@@ -1051,7 +1051,7 @@ body {
     width: 220px;
   }
   .body-wrapper .menu .items .item .item-top {
-    height: 420px;
+    height: 410px;
   }
   .body-wrapper .menu .items .item .item-bottom {
     height: 250px;
@@ -1063,7 +1063,7 @@ body {
     bottom: 180px;
   }
   .body-wrapper .menu .items .item .item-name {
-    top: 340px;
+    top: 290px;
   }
   .body-wrapper .menu .items .item .item-name p {
     font-size: 0.9em;
@@ -1145,7 +1145,7 @@ body {
 
 @media (max-width: 1050px) {
   .body-wrapper .menu .title {
-    bottom: 500px;
+    bottom: 440px;
     height: 100px;
     width: 100%;
   }
@@ -1155,12 +1155,12 @@ body {
   }
   .body-wrapper .menu .items {
     width: 950px;
-    height: 500px;
-    bottom: 50px;
+    height: 450px;
+    bottom: 40px;
   }
   .body-wrapper .menu .items .item {
     width: 220px;
-    height: 500px;
+    height: 450px;
   }
   .body-wrapper .menu .items .item .item-shadow {
     width: 170px;

@@ -676,49 +676,35 @@ body {
     .shoe {
       &.shoe_01 {
         &.shoe_01_black {
-          // @include contentColor(#232323, rgba(0,0,0,0.2), white);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
         &.shoe_01_white {
-          // @include contentColor(#d1d1d1, rgba(255, 255, 255, 0.3), #232323);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
         &.shoe_01_pink {
-          // @include contentColor(#da9fb6, rgba(226, 171, 205, 0.4), #232323);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
       }
       &.shoe_02 {
         &.shoe_02_black {
-          // @include contentColor(#232323, rgba(0,0,0,0.2), white);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
         &.shoe_02_yellow {
-          // display: block;
-          // @include contentColor(#cda41d, rgba(241, 210, 70, 0.418), #232323);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
         &.shoe_02_pink {
-          // display: block;
-          // @include contentColor(#da9fb6, #e268729d, #232323);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
       }
       &.shoe_03 {
         &.shoe_03_black {
-          // display: block;
-          // @include contentColor(#232323, rgba(0,0,0,0.2), white);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
         &.shoe_03_white {
-          // display: block;
-          // @include contentColor(#d1d1d1, rgba(255, 255, 255, 0.3), #232323);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
         &.shoe_03_blue {
-          // display: block;
-          // @include contentColor(#83bece, #42a9c586, #232323);
-          @include contentSetting(20rem, -10px);
+          @include contentSetting(15rem, -10px);
         }
       }
   
@@ -735,35 +721,37 @@ body {
           // top: 0; bottom: 0; 
         }
         img {
+          bottom: unset;
+          top: 100px;
           width: 40%;
           // z-index: 2;
           // max-width: 650px;
         }
         .subtitle {
-          height: 400px; 
-          width: 650px;
+          bottom: unset;
+          top: 50px;
+
+          height: 300px; 
+          width: 550px;
           p {
-            // font-family: 'Fjalla One';
-            // font-weight: 800;
-            // font-size: 4rem;
-            // position: absolute;
+            font-size: 3rem;
           }
-          .subtitle_01 {top: -25px; left: -80px;}
-          .subtitle_02 {bottom: -5px; right: -80px;}
+          .subtitle_01 {top: -10px; left: 0px;}
+          .subtitle_02 {bottom: 20px; right: 0px;}
           .description {
             font-size: 1rem;
-            // font-weight: 300;
-            width: 400px;
-            bottom: -5px;
-            left: -80px;
+            width: 350px;
+            bottom: -10px;
+            left: -50px;
           }
         }
       }
       .title {
-        // z-index: 1;
         h1 {
-          line-height: 400px;
-          height: 400px;
+          bottom: unset;
+          top: 50px;
+          line-height: 300px;
+          height: 300px;
           width: 650px;
         }
       }
@@ -785,7 +773,7 @@ body {
       .back {
         // left: 50px; 
         // height: 50px;
-        width: 280px;
+        width: 210px;
         p {
           // font-size: 1.5rem;
           // line-height: 50px;
@@ -812,7 +800,7 @@ body {
           }
         }
         .arrow {
-          width: 220px;
+          width: 150px;
           // height: 3px;
           // margin-bottom: 17px;
           // left: 60px;

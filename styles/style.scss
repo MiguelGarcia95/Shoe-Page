@@ -675,19 +675,19 @@ body {
   .body-wrapper {
     .shoe {
       &.shoe_01 {
-        &.shoe_01_black {@include contentSetting(15rem, -10px);}
-        &.shoe_01_white {@include contentSetting(15rem, -10px);}
-        &.shoe_01_pink {@include contentSetting(15rem, -10px);}
+        &.shoe_01_black {@include contentSetting(14rem, -10px);}
+        &.shoe_01_white {@include contentSetting(14rem, -10px);}
+        &.shoe_01_pink {@include contentSetting(14rem, -10px);}
       }
       &.shoe_02 {
-        &.shoe_02_black {@include contentSetting(15rem, -10px);}
-        &.shoe_02_yellow {@include contentSetting(15rem, -10px);}
-        &.shoe_02_pink {@include contentSetting(15rem, -10px);}
+        &.shoe_02_black {@include contentSetting(14rem, -10px);}
+        &.shoe_02_yellow {@include contentSetting(14rem, -10px);}
+        &.shoe_02_pink {@include contentSetting(14rem, -10px);}
       }
       &.shoe_03 {
-        &.shoe_03_black {@include contentSetting(15rem, -10px);}
-        &.shoe_03_white {@include contentSetting(15rem, -10px);}
-        &.shoe_03_blue {@include contentSetting(15rem, -10px);}
+        &.shoe_03_black {@include contentSetting(14rem, -10px);}
+        &.shoe_03_white {@include contentSetting(14rem, -10px);}
+        &.shoe_03_blue {@include contentSetting(14rem, -10px);}
       }
   
       .display {
@@ -700,17 +700,17 @@ body {
           bottom: unset;
           top: 50px;
 
-          height: 300px; 
+          height: 280px; 
           width: 550px;
           p {
-            font-size: 3rem;
+            font-size: 2.5rem;
           }
-          .subtitle_01 {top: -15px; left: 0px;}
-          .subtitle_02 {bottom: 0px; right: 0px;}
+          .subtitle_01 {top: -5px; left: 0px;}
+          .subtitle_02 {bottom: 10px; right: 0px;}
           .description {
             font-size: 1rem;
             width: 350px;
-            bottom: -45px;
+            bottom: -70px;
             left: 0px; right: 0px;
             margin: auto;
           }
@@ -720,15 +720,15 @@ body {
         h1 {
           bottom: unset;
           top: 55px;
-          line-height: 300px;
-          height: 300px;
+          line-height: 280px;
+          height: 280px;
           width: 650px;
         }
       }
 
       .back {
-        width: 210px;
-        .arrow {width: 150px;}
+        width: 150px;
+        .arrow {width: 100px;}
       }
     }
   }
@@ -855,35 +855,35 @@ body {
     .shoe {
       &.shoe_01 {
         &.shoe_01_black {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
         &.shoe_01_white {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
         &.shoe_01_pink {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
       }
       &.shoe_02 {
         &.shoe_02_black {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
         &.shoe_02_yellow {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
         &.shoe_02_pink {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
       }
       &.shoe_03 {
         &.shoe_03_black {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
         &.shoe_03_white {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
         &.shoe_03_blue {
-          @include contentSetting(15rem, -10px);
+          @include contentSetting(14rem, -10px);
         }
       }
   
@@ -892,13 +892,6 @@ body {
         // position: absolute;
       }
       .display {
-        // z-index: 2;
-        img, .shoe-shadow, .subtitle  {
-          // position: absolute;
-          // left: 0px; right: 0;
-          // margin: auto;
-          // top: 0; bottom: 0; 
-        }
         img {
           bottom: unset;
           top: 100px;
@@ -909,18 +902,17 @@ body {
         .subtitle {
           bottom: unset;
           top: 50px;
-
-          height: 300px; 
+          height: 280px; 
           width: 550px;
           p {
-            font-size: 3rem;
+            font-size: 2.5rem;
           }
-          .subtitle_01 {top: -15px; left: 0px;}
-          .subtitle_02 {bottom: 0px; right: 0px;}
+          .subtitle_01 {top: -5px; left: 0px;}
+          .subtitle_02 {bottom: 10px; right: 0px;}
           .description {
             font-size: 1rem;
             width: 350px;
-            bottom: -45px;
+            bottom: -70px;
             left: 0px; right: 0px;
             margin: auto;
           }
@@ -930,8 +922,8 @@ body {
         h1 {
           bottom: unset;
           top: 55px;
-          line-height: 300px;
-          height: 300px;
+          line-height: 280px;
+          height: 280px;
           width: 650px;
         }
       }
@@ -951,9 +943,9 @@ body {
         }
       }
       .back {
+        width: 150px;
         // left: 50px; 
         // height: 50px;
-        width: 210px;
         p {
           // font-size: 1.5rem;
           // line-height: 50px;
@@ -980,7 +972,7 @@ body {
           }
         }
         .arrow {
-          width: 150px;
+          width: 100px;
           // height: 3px;
           // margin-bottom: 17px;
           // left: 60px;

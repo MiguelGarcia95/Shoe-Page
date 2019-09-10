@@ -1489,9 +1489,6 @@ body {
     width: 100px;
     left: 25px;
   }
-  .body-wrapper .shoe .back p {
-    font-size: 1rem;
-  }
   .body-wrapper .shoe .back .arrow {
     width: 70px;
   }
@@ -1519,72 +1516,131 @@ body {
   .body-wrapper .shoe .back p {
     width: 50px;
   }
-  .body-wrapper .shoe .back .head {
-    left: 40px;
-  }
   .body-wrapper .shoe .back .arrow {
     width: 50px;
-    left: 40px;
-    bottom: 10px;
   }
 }
 
 @media (max-width: 350px) {
   .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
     letter-spacing: -10px;
-    font-size: 10rem;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe .display .subtitle .description {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .body-wrapper .shoe .sm_title {
+    left: unset;
+    right: 20px;
+  }
+  .body-wrapper .shoe .back {
+    left: 10px;
+  }
+  .body-wrapper .shoe .back .head {
+    left: 50px;
+  }
+  .body-wrapper .shoe .back .arrow {
+    width: 50px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 300px) {
+  .body-wrapper .shoe.shoe_01.shoe_01_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_white .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_01.shoe_01_pink .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_yellow .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_02.shoe_02_pink .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_black .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_white .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
+  }
+  .body-wrapper .shoe.shoe_03.shoe_03_blue .title h1 {
+    letter-spacing: -10px;
+    font-size: 8rem;
   }
   .body-wrapper .shoe .display .subtitle p {
     font-size: 2rem;
   }
   .body-wrapper .shoe .display .subtitle .description {
     font-size: 0.9rem;
+    width: 100%;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .body-wrapper .shoe .sm_title {
+    left: unset;
+    right: 20px;
   }
   .body-wrapper .shoe .back {
-    width: 80px;
-  }
-  .body-wrapper .shoe .back p {
-    width: 50px;
+    left: 10px;
   }
   .body-wrapper .shoe .back .head {
-    left: 40px;
+    left: 50px;
   }
   .body-wrapper .shoe .back .arrow {
     width: 50px;
-    left: 40px;
-    bottom: 10px;
+    left: 50px;
   }
 }
 /*# sourceMappingURL=style.css.map */

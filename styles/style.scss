@@ -909,7 +909,7 @@ body {
       .back {
         width: 100px;
         left: 25px; 
-        p {font-size: 1rem;}
+        // p {font-size: 1rem;}
         .arrow {width: 70px;}
       }
     }
@@ -947,12 +947,7 @@ body {
       .back {
         width: 80px;
         p {width: 50px;}
-        .head {left: 40px;}
-        .arrow {
-          width: 50px;
-          left: 40px;
-          bottom: 10px;
-        }
+        .arrow {width: 50px;}
       }
     }
   }
@@ -962,19 +957,57 @@ body {
   .body-wrapper {
     .shoe {
       &.shoe_01 {
-        &.shoe_01_black {@include contentSetting(10rem, -10px);}
-        &.shoe_01_white {@include contentSetting(10rem, -10px);}
-        &.shoe_01_pink {@include contentSetting(10rem, -10px);}
+        &.shoe_01_black {@include contentSetting(8rem, -10px);}
+        &.shoe_01_white {@include contentSetting(8rem, -10px);}
+        &.shoe_01_pink {@include contentSetting(8rem, -10px);}
       }
       &.shoe_02 {
-        &.shoe_02_black {@include contentSetting(10rem, -10px);}
-        &.shoe_02_yellow {@include contentSetting(10rem, -10px);}
-        &.shoe_02_pink {@include contentSetting(10rem, -10px);}
+        &.shoe_02_black {@include contentSetting(8rem, -10px);}
+        &.shoe_02_yellow {@include contentSetting(8rem, -10px);}
+        &.shoe_02_pink {@include contentSetting(8rem, -10px);}
       }
       &.shoe_03 {
-        &.shoe_03_black {@include contentSetting(10rem, -10px);}
-        &.shoe_03_white {@include contentSetting(10rem, -10px);}
-        &.shoe_03_blue {@include contentSetting(10rem, -10px);}
+        &.shoe_03_black {@include contentSetting(8rem, -10px);}
+        &.shoe_03_white {@include contentSetting(8rem, -10px);}
+        &.shoe_03_blue {@include contentSetting(8rem, -10px);}
+      }
+      .display {
+        .subtitle {
+          .description {
+            font-size: 0.9rem;
+            width: 100%;
+            padding: 0 15px;
+            box-sizing: border-box;
+          }
+        }
+      }
+      .sm_title {left: unset;right: 20px;}
+      .back {
+        left: 10px; 
+        .head {left: 50px;}
+        .arrow {width: 50px; left: 50px;}
+      }
+    }
+  }
+}
+
+@media(max-width: 300px) {
+  .body-wrapper {
+    .shoe {
+      &.shoe_01 {
+        &.shoe_01_black {@include contentSetting(8rem, -10px);}
+        &.shoe_01_white {@include contentSetting(8rem, -10px);}
+        &.shoe_01_pink {@include contentSetting(8rem, -10px);}
+      }
+      &.shoe_02 {
+        &.shoe_02_black {@include contentSetting(8rem, -10px);}
+        &.shoe_02_yellow {@include contentSetting(8rem, -10px);}
+        &.shoe_02_pink {@include contentSetting(8rem, -10px);}
+      }
+      &.shoe_03 {
+        &.shoe_03_black {@include contentSetting(8rem, -10px);}
+        &.shoe_03_white {@include contentSetting(8rem, -10px);}
+        &.shoe_03_blue {@include contentSetting(8rem, -10px);}
       }
       .display {
         img {
@@ -992,6 +1025,9 @@ body {
           .description {
             font-size: 0.9rem;
             // width: 350px;
+            width: 100%;
+            padding: 0 15px;
+            box-sizing: border-box;
             // text-align: center;
             // bottom: -30px;
             // left: 0px; right: 0px;
@@ -1011,6 +1047,8 @@ body {
         // font-size: 1.2rem;
         // line-height: 50px;
         // height: 50px;
+        left: unset;
+        right: 20px;
       }
       .colors {
         // width: 150px;
@@ -1026,18 +1064,18 @@ body {
         }
       }
       .back {
-        width: 80px;
-        // left: 25px; 
+        // width: 80px;
+        left: 10px; 
         // height: 50px;
         p {
           // font-size: 1rem;
           // line-height: 50px;
           // height: 50px;
-          width: 50px;
+          // width: 50px;
         }
         .head {
           // height: 30px;
-          left: 40px;
+          left: 50px;
           &::before {
             // width: 30px;
             // height: 3px;
@@ -1057,8 +1095,8 @@ body {
           width: 50px;
           // height: 3px;
           // margin-bottom: 17px;
-          left: 40px;
-          bottom: 10px;
+          left: 50px;
+          // bottom: 10px;
         }
       }
     }
